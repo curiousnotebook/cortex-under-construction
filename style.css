@@ -1084,3 +1084,27 @@ a.tag:hover { color: var(--ink); filter: brightness(0.97); }
   .reaction { min-width: 0; flex: 1 1 28%; }
   .comment-text, .comment-delete { margin-left: 0; }
 }
+
+/* ==========================================================
+   PICTURES INSIDE ARTICLES AND PAGES
+   <figure> with an <img> and an optional <figcaption>.
+   Add class="narrow" to <figure> for a smaller, centred picture.
+   ========================================================== */
+.prose figure { margin: 2.2em 0; }
+.prose figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-small);
+  border: 1px solid var(--line);
+  background: var(--sand);
+}
+.prose figure.narrow img { width: auto; max-width: min(100%, 440px); margin: 0 auto; }
+.prose figcaption {
+  font-family: var(--font-ui);
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin-top: 0.65rem;
+}
+.prose figure.narrow figcaption { text-align: center; }

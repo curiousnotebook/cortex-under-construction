@@ -317,7 +317,40 @@
   }
 
   /* ==========================================================
-     6. FOOTER: keep the copyright year current
+     6. EXTRA MENU PAGES (listed in SITE_PAGES in articles-list.js)
+     Adds each page to the top menu just before "About", and to
+     the footer links.
+     ========================================================== */
+  function initExtraPages() {
+    if (typeof SITE_PAGES === "undefined" || !SITE_PAGES.length) return;
+    var here = (window.location.pathname.split("/").pop() || "index.html").toLowerCase();
+
+    function addTo(list, markCurrent) {
+      if (!list) return;
+      var items = list.querySelectorAll("li");
+      var before = null;
+      Array.prototype.forEach.call(items, function (li) {
+        var a = li.querySelector("a");
+        if (a && /about\.html$/.test(a.getAttribute("href") || "")) before = li;
+      });
+      SITE_PAGES.forEach(function (p) {
+        if (!p || !p.name || !p.file) return;
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.href = p.file;
+        a.textContent = p.name;
+        if (markCurrent && String(p.file).toLowerCase() === here) a.setAttribute("aria-current", "page");
+        li.appendChild(a);
+        list.insertBefore(li, before);
+      });
+    }
+
+    addTo(document.querySelector("#site-nav ul"), true);
+    addTo(document.querySelector(".footer-links"), false);
+  }
+
+  /* ==========================================================
+     7. FOOTER: keep the copyright year current
      ========================================================== */
   function initYear() {
     var year = String(new Date().getFullYear());
@@ -327,6 +360,7 @@
   }
 
   /* ---------- Start everything ---------- */
+  initExtraPages();
   initMenu();
   initHomepage();
   initFinder();

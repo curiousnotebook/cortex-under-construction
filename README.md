@@ -24,6 +24,8 @@ An anonymous, independent knowledge journal. This is a plain static website (HTM
 | `firebase-config.js` | Your Firebase settings (pasted once) | Once, during setup |
 | `firestore-rules.txt` | Security rules to paste into Firebase | Once, during setup |
 | `login.html` | Your author sign-in page (not in the menu) | No |
+| `page-template.html` | A blank page to copy for new menu pages | No (just copy it) |
+| `images/` | Pictures for articles (create once) | When adding pictures |
 
 ---
 
@@ -40,6 +42,31 @@ An anonymous, independent knowledge journal. This is a plain static website (HTM
 **To feature an article on the homepage:** set `featured: true`. The homepage shows up to three featured articles; the newest ones go first.
 
 ---
+
+## Pictures
+
+Upload pictures into an `images` folder, then place them in an article:
+
+```
+<figure>
+  <img src="images/sleep-stages.png" alt="One sentence describing the picture" loading="lazy">
+  <figcaption>Caption. Source or credit.</figcaption>
+</figure>
+```
+
+Use `<figure class="narrow">` for a smaller, centred picture. Only use your own or freely licensed pictures, never patient images, and keep files under about 500 KB.
+
+## Extra pages in the menu
+
+Copy `page-template.html` to a new file (e.g. `reading-list.html`), fill it in, then list it at the bottom of `articles-list.js`:
+
+```
+const SITE_PAGES = [
+  { name: "Reading list", file: "reading-list.html" }
+];
+```
+
+It appears in the top menu before "About" and in the footer.
 
 ## Reactions and discussion
 
