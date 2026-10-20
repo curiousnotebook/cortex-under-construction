@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cortex Under Construction — Learning a little. Questioning a lot. Growing every day.</title>
+  <meta name="description" content="An anonymous, independent knowledge journal about medicine, science, psychology, philosophy, society and personal growth.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ===== SITE HEADER (the same on every page) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true" focusable="false"><circle cx="17" cy="17" r="16" fill="#F3E19E"/><path d="M17 27V16" fill="none" stroke="#4A6142" stroke-width="1.8" stroke-linecap="round"/><path d="M17 18c0-4.4 3.2-7.6 7.8-7.6 0 4.4-3.2 7.6-7.8 7.6Z" fill="#9DB08A" stroke="#4A6142" stroke-width="1.5" stroke-linejoin="round"/><path d="M17 20.5c0-3.8-2.8-6.6-6.9-6.6 0 3.8 2.8 6.6 6.9 6.6Z" fill="#FFFDF8" stroke="#4A6142" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        <span class="brand-name">Cortex <em>Under Construction</em></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+        <span>Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="index.html#topics">Topics</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO: site name, tagline, introduction, search ===== -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">An independent knowledge journal</p>
+          <h1 class="hero-title">Cortex <span>Under Construction</span></h1>
+          <p class="tagline">Learning a little. Questioning a lot. Growing every day.</p>
+          <p class="hero-intro">A quiet corner of the internet for curious minds. Here you’ll find clear, carefully sourced essays on medicine, science, psychology, philosophy, history and the craft of learning, written to explain ideas plainly, connect them across fields, and be honest about what we still don’t know.</p>
+
+          <form class="search-form" action="articles.html" method="get" role="search">
+            <label for="home-search" class="visually-hidden">Search articles</label>
+            <input id="home-search" name="q" type="search" placeholder="Search essays, e.g. memory or placebo" autocomplete="off">
+            <button type="submit">Search</button>
+          </form>
+        </div>
+
+        <!-- Decorative illustration: a brain growing like a plant, with drafting lines -->
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="210" cy="205" r="184" fill="#FBF2D3"/>
+            <g fill="none" stroke="#CFC7AE" stroke-width="1.2" stroke-dasharray="4 7">
+              <circle cx="214" cy="182" r="132"/>
+              <path d="M40 182h348M214 26v360"/>
+            </g>
+            <g stroke="#4A6142" stroke-width="2" stroke-linecap="round">
+              <path d="M66 182h14M348 182h14M214 40v12"/>
+            </g>
+            <path d="M120 200C100 163 120 116 164 106c16-26 62-32 84-14 32-10 68 12 70 44 28 16 30 62 6 82 2 30-26 48-54 42-14 20-50 24-64 6-20 16-56 10-64-14-26-6-36-28-22-52Z" fill="#E3EADA" stroke="#4A6142" stroke-width="3" stroke-linejoin="round"/>
+            <g fill="none" stroke="#4A6142" stroke-width="2.4" stroke-linecap="round">
+              <path d="M164 106c6 22 24 30 42 24"/>
+              <path d="M248 92c-8 22 2 40 24 42"/>
+              <path d="M318 136c-18 6-26 22-20 40"/>
+              <path d="M142 156c18 8 26 26 18 44"/>
+              <path d="M206 156c16 10 36 8 48-4"/>
+              <path d="M198 192c18 14 40 16 58 4 12 14 32 16 46 6"/>
+              <path d="M142 252c12-16 30-20 46-12"/>
+              <path d="M206 266c2-18 16-30 34-28"/>
+              <path d="M270 260c-6-16 0-28 16-32"/>
+            </g>
+            <path d="M216 268c2 30-4 58-10 96" fill="none" stroke="#4A6142" stroke-width="3" stroke-linecap="round"/>
+            <path d="M212 312c-22-16-46-12-56 2 20 12 42 10 56-2Z" fill="#9DB08A" stroke="#4A6142" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M209 338c20-18 46-16 56-2-18 14-42 14-56 2Z" fill="#9DB08A" stroke="#4A6142" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M215 292c16-12 34-10 40 0-14 10-28 10-40 0Z" fill="#F3E19E" stroke="#4A6142" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M234 90c4-22 16-36 30-42" fill="none" stroke="#4A6142" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M250 60c8-14 22-18 32-14-4 12-18 18-32 14Z" fill="#F3E19E" stroke="#4A6142" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M240 74c-12-12-24-12-32-6 8 10 22 12 32 6Z" fill="#9DB08A" stroke="#4A6142" stroke-width="2" stroke-linejoin="round"/>
+            <g fill="#B8962C">
+              <circle cx="96" cy="118" r="4"/><circle cx="342" cy="92" r="3"/>
+              <circle cx="350" cy="300" r="4"/><circle cx="82" cy="292" r="3"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED ARTICLES (filled in automatically from articles-list.js) ===== -->
+    <section class="section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 id="featured-heading">Featured essays</h2>
+            <p>Start here: a few pieces that show what this journal is about.</p>
+          </div>
+          <a class="text-link" href="articles.html">Browse all articles →</a>
+        </div>
+        <div id="featured-list" class="card-grid card-grid--featured"></div>
+        <noscript>
+          <p>Please <a href="articles.html">visit the articles page</a> to see every essay.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <!-- ===== TOPICS (filled in automatically) ===== -->
+    <section id="topics" class="section section--tinted" aria-labelledby="topics-heading">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 id="topics-heading">Explore by topic</h2>
+            <p>Six neighbourhoods of curiosity. The most interesting ideas usually live where they meet.</p>
+          </div>
+        </div>
+        <div id="topic-grid" class="topic-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== HOW THIS JOURNAL WORKS ===== -->
+    <section class="section" aria-labelledby="how-heading">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="how-heading">How to read this journal</h2>
+        </div>
+        <div class="principles">
+          <div class="principle">
+            <h3>Plain language first</h3>
+            <p>Every essay is written for a curious reader, not a specialist. Technical terms are explained the first time they appear.</p>
+          </div>
+          <div class="principle">
+            <h3>Evidence, clearly labelled</h3>
+            <p>Science essays end with a short summary that separates what is well supported from what is still open.</p>
+            <div class="legend" aria-hidden="true"><span class="solid">✓ Well established</span><span class="open">? Still uncertain</span></div>
+          </div>
+          <div class="principle">
+            <h3>Connections over silos</h3>
+            <p>A pharmacology idea can illuminate economics; a psychology finding can change how you study. Essays link to each other on purpose.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RECENTLY ADDED (filled in automatically) ===== -->
+    <section class="section" aria-labelledby="recent-heading" style="padding-top:0">
+      <div class="container narrow">
+        <div class="section-head">
+          <h2 id="recent-heading">Recently added</h2>
+          <a class="text-link" href="articles.html">See everything →</a>
+        </div>
+        <ul id="recent-list" class="recent-list"></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== SITE FOOTER (the same on every page) ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">Cortex <em>Under Construction</em></p>
+        <p class="footer-tagline">Learning a little. Questioning a lot. Growing every day.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html">All articles</a></li>
+          <li><a href="index.html#topics">Topics</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <p class="footer-note">Everything here is written for education and curiosity. It is not medical, legal or financial advice. For decisions about your own health, please speak to a qualified professional.</p>
+    </div>
+    <div class="container footer-base">
+      <p>&copy; <span data-year>2026</span> Cortex Under Construction &middot; An anonymous, independent knowledge journal.</p>
+    </div>
+  </footer>
+
+  <script src="articles-list.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

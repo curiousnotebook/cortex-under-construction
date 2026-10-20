@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Why a Positive Test Might Still Mean You’re Probably Fine — Cortex Under Construction</title>
+  <meta name="description" content="A plain-English lesson in base rates, the most useful idea in probability that few of us are taught well.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body class="article-page">
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ===== SITE HEADER (the same on every page) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true" focusable="false"><circle cx="17" cy="17" r="16" fill="#F3E19E"/><path d="M17 27V16" fill="none" stroke="#4A6142" stroke-width="1.8" stroke-linecap="round"/><path d="M17 18c0-4.4 3.2-7.6 7.8-7.6 0 4.4-3.2 7.6-7.8 7.6Z" fill="#9DB08A" stroke="#4A6142" stroke-width="1.5" stroke-linejoin="round"/><path d="M17 20.5c0-3.8-2.8-6.6-6.9-6.6 0 3.8 2.8 6.6 6.9 6.6Z" fill="#FFFDF8" stroke="#4A6142" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        <span class="brand-name">Cortex <em>Under Construction</em></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+        <span>Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html" aria-current="page">Articles</a></li>
+        <li><a href="index.html#topics">Topics</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="article">
+
+      <header class="article-head container narrow">
+        <a class="tag cat-philosophy" href="articles.html?topic=philosophy">Philosophy &amp; Critical Thinking</a>
+        <h1>Why a Positive Test Might Still Mean You’re Probably Fine</h1>
+        <p class="dek">A plain-English lesson in base rates: the most useful idea in probability that very few of us are ever taught properly.</p>
+        <p class="article-meta"><span>6 min read</span><span aria-hidden="true">·</span><time datetime="2026-10-09">9 October 2026</time></p>
+      </header>
+
+      <div class="divider" aria-hidden="true">
+        <svg viewBox="0 0 140 28" xmlns="http://www.w3.org/2000/svg"><path d="M8 16h124" stroke="#CFC7AE" stroke-width="1.2" stroke-dasharray="3 6"/><path d="M70 25V12" fill="none" stroke="#4A6142" stroke-width="1.6" stroke-linecap="round"/><path d="M70 14c0-4.4 3.2-7.6 7.8-7.6 0 4.4-3.2 7.6-7.8 7.6Z" fill="#9DB08A" stroke="#4A6142" stroke-width="1.4"/><path d="M70 17.5c0-3.8-2.8-6.6-6.9-6.6 0 3.8 2.8 6.6 6.9 6.6Z" fill="#F3E19E" stroke="#4A6142" stroke-width="1.4"/></svg>
+      </div>
+
+      <div class="prose container narrow">
+        <p>Here is a puzzle. A disease affects 1 in every 1,000 people. A test for it has a false-positive rate of 5%: among people who don’t have the disease, 5 in 100 will wrongly test positive. Assume the test catches everyone who does have the disease. A person picked at random tests positive. What is the chance that they actually have the disease?</p>
+        <p>Take a moment and make a guess.</p>
+
+        <h2>Doctors found it hard, too</h2>
+        <p>In 1978, researchers put this exact question to 60 doctors and medical students at Harvard-affiliated hospitals. The most common answer, given by almost half of them, was 95%. Only 11 of the 60 gave the correct answer, which is about <strong>2%</strong>.</p>
+        <p>This wasn’t just a problem of the 1970s. When the question was repeated with a new group of doctors and students in a study published in 2014, the results were strikingly similar: the most common answer was still 95%, and fewer than a quarter answered correctly.</p>
+        <p>How can 2% be right? The answer lies in something our minds tend to skip: the <strong>base rate</strong>, meaning how common the condition was in the first place.</p>
+
+        <h2>Think in people, not percentages</h2>
+        <p>Percentages are slippery. Researchers Gerd Gigerenzer and Ulrich Hoffrage showed that people reason far more accurately when the same information is presented as <strong>natural frequencies</strong>: counts of actual people. So let’s use a fresh example with round, illustrative numbers.</p>
+        <p>Suppose a condition affects 1 in 100 people. A test correctly detects 9 out of 10 people who have it. But it also wrongly flags about 9 in 100 people who don’t. Now imagine testing 1,000 people:</p>
+
+        <figure class="freq-tree" aria-labelledby="tree-caption">
+          <div class="ft-row ft-row--1">
+            <div class="ft-box ft-root"><strong>1,000</strong>people tested</div>
+          </div>
+          <div class="ft-row ft-row--2">
+            <div class="ft-box ft-ill"><strong>10</strong>have the condition</div>
+            <div class="ft-box ft-well"><strong>990</strong>do not</div>
+          </div>
+          <div class="ft-row ft-row--2">
+            <div class="ft-group">
+              <div class="ft-box ft-true"><strong>9</strong>of these test positive</div>
+              <div class="ft-box ft-muted"><strong>1</strong>tests negative</div>
+            </div>
+            <div class="ft-group">
+              <div class="ft-box ft-false"><strong>89</strong>of these test positive</div>
+              <div class="ft-box ft-muted"><strong>901</strong>test negative</div>
+            </div>
+          </div>
+          <figcaption id="tree-caption">Illustrative numbers only. Out of 98 positive results in total, only 9 belong to people who truly have the condition. So a positive result here means roughly a 9% chance of having it, not 90%.</figcaption>
+        </figure>
+
+        <p>The test seems impressive: it catches 90% of real cases. Yet most of the positive results are false alarms. Why? Because healthy people vastly outnumber sick people. A small error rate applied to a very large group (990 people) produces more false positives than a large detection rate applied to a small group (10 people) produces true positives.</p>
+        <p>Apply the same reasoning to the opening puzzle. Out of 1,000 people, 1 has the disease and tests positive. Of the 999 without it, about 50 test positive by mistake. So only 1 of roughly 51 positive results is real, which is about 2%.</p>
+
+        <p class="key-idea">The meaning of any test result, clue or piece of evidence depends on how likely the thing was <em>before</em> you looked. Strong evidence for a rare thing can still leave it unlikely.</p>
+
+        <h2>Why our minds skip the base rate</h2>
+        <p>In the 1970s, psychologists Daniel Kahneman and Amos Tversky showed that people often judge probability by <strong>representativeness</strong>: how well something fits a mental picture. A positive test “looks like” disease, so it feels like disease. The dull background statistic, how rare the disease is, doesn’t create the same vivid impression, so it gets ignored. Researchers call this <strong>base-rate neglect</strong>.</p>
+
+        <h2>Bayes’ idea in one sentence</h2>
+        <p>The mathematics behind this was worked out in the eighteenth century by Thomas Bayes and later developed by Pierre-Simon Laplace. Without any equations, the core idea is this: <em>your belief after seeing evidence should depend on how likely the idea was beforehand, and on how much more likely that evidence is if the idea is true than if it is false.</em></p>
+        <p>Philosophers had been circling the same principle. The Scottish philosopher David Hume put it memorably in 1748: a wise person proportions their belief to the evidence. Base rates add a crucial refinement: proportion your belief to the evidence <em>and</em> to what you knew before.</p>
+
+        <h2>Where base rates hide in everyday life</h2>
+        <ul>
+          <li><strong>Health screening:</strong> when a test is used on large numbers of people without symptoms, even a good test can produce many false alarms. That’s one reason screening programmes are carefully designed and why positive screening results are usually confirmed with further tests.</li>
+          <li><strong>Rare side effects:</strong> if a common medicine is taken by millions of people, some will develop unrelated illnesses afterwards purely by coincidence. Working out whether the medicine caused them requires comparing against how often those illnesses occur anyway.</li>
+          <li><strong>Surprising scientific claims:</strong> a single study with a startling result deserves more caution than one confirming well-established knowledge. Yet, as the story of <a href="article-stomach-bacterium.html">the bacterium in the stomach</a> shows, strong enough evidence can overturn even confident prior beliefs.</li>
+          <li><strong>Personal stories:</strong> “I took this remedy and recovered” doesn’t account for how many people recover anyway (see <a href="article-placebo.html">The Placebo Puzzle</a>).</li>
+        </ul>
+
+        <h2>An important caution</h2>
+        <p>None of this means that positive test results should be dismissed. The calculation depends entirely on the starting probability. For a person who already has symptoms, or who is at high risk, the chance of having the condition before the test is much higher, so a positive result is much more meaningful. This is why doctors interpret tests in the light of a person’s history and examination, and why the numbers in this essay are teaching examples, not real test statistics. If you receive a test result, the right person to interpret it is your doctor.</p>
+
+        <aside class="evidence" aria-labelledby="evidence-bayes">
+          <h2 class="evidence-heading" id="evidence-bayes">What we know, and what we don’t</h2>
+          <div class="evidence-col evidence-col--solid">
+            <h3>Well established</h3>
+            <ul>
+              <li>The mathematics (Bayes’ theorem) is not in dispute.</li>
+              <li>Many people, including trained professionals, neglect base rates in probability problems like the one above.</li>
+              <li>Presenting information as natural frequencies tends to improve people’s reasoning.</li>
+            </ul>
+          </div>
+          <div class="evidence-col evidence-col--open">
+            <h3>Still uncertain</h3>
+            <ul>
+              <li>How much base-rate neglect in word puzzles translates into errors in real clinical decisions.</li>
+              <li>The best ways to teach probabilistic thinking so that it lasts.</li>
+            </ul>
+          </div>
+        </aside>
+
+        <section class="references" aria-labelledby="refs-bayes">
+          <h2 id="refs-bayes">References</h2>
+          <ol>
+            <li>Casscells W, Schoenberger A, Graboys TB. Interpretation by physicians of clinical laboratory results. <em>New England Journal of Medicine</em>. 1978;299(18):999–1001. <a href="https://doi.org/10.1056/NEJM197811022991808">doi:10.1056/NEJM197811022991808</a></li>
+            <li>Manrai AK, Bhatia G, Strymish J, et al. Medicine’s uncomfortable relationship with math: calculating positive predictive value. <em>JAMA Internal Medicine</em>. 2014;174(6):991–993. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4955674/">Free full text (PMC)</a></li>
+            <li>Gigerenzer G, Hoffrage U. How to improve Bayesian reasoning without instruction: frequency formats. <em>Psychological Review</em>. 1995;102(4):684–704. <a href="https://doi.org/10.1037/0033-295X.102.4.684">doi:10.1037/0033-295X.102.4.684</a></li>
+            <li>Kahneman D, Tversky A. On the psychology of prediction. <em>Psychological Review</em>. 1973;80(4):237–251. <a href="https://doi.org/10.1037/h0034747">doi:10.1037/h0034747</a></li>
+            <li>Gigerenzer G, Gaissmaier W, Kurz-Milcke E, Schwartz LM, Woloshin S. Helping doctors and patients make sense of health statistics. <em>Psychological Science in the Public Interest</em>. 2007;8(2):53–96.</li>
+            <li>Hume D. <em>An Enquiry Concerning Human Understanding</em>. 1748. Section X, “Of Miracles.”</li>
+          </ol>
+        </section>
+
+        <p class="disclaimer">This essay uses simplified, illustrative numbers to explain a reasoning principle. It is not medical advice and should not be used to interpret any real test result.</p>
+      </div>
+    </article>
+
+    <section class="section related" aria-labelledby="related-heading">
+      <div class="container">
+        <div class="section-head"><h2 id="related-heading">Keep exploring</h2></div>
+        <div id="related-list" class="card-grid" data-current="base-rates"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== SITE FOOTER (the same on every page) ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">Cortex <em>Under Construction</em></p>
+        <p class="footer-tagline">Learning a little. Questioning a lot. Growing every day.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html">All articles</a></li>
+          <li><a href="index.html#topics">Topics</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <p class="footer-note">Everything here is written for education and curiosity. It is not medical, legal or financial advice. For decisions about your own health, please speak to a qualified professional.</p>
+    </div>
+    <div class="container footer-base">
+      <p>&copy; <span data-year>2026</span> Cortex Under Construction &middot; An anonymous, independent knowledge journal.</p>
+    </div>
+  </footer>
+
+  <script src="articles-list.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

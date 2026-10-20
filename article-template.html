@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your article title — Cortex Under Construction</title>
+  <meta name="description" content="A one-sentence summary of your article.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body class="article-page">
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ===== SITE HEADER (the same on every page) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true" focusable="false"><circle cx="17" cy="17" r="16" fill="#F3E19E"/><path d="M17 27V16" fill="none" stroke="#4A6142" stroke-width="1.8" stroke-linecap="round"/><path d="M17 18c0-4.4 3.2-7.6 7.8-7.6 0 4.4-3.2 7.6-7.8 7.6Z" fill="#9DB08A" stroke="#4A6142" stroke-width="1.5" stroke-linejoin="round"/><path d="M17 20.5c0-3.8-2.8-6.6-6.9-6.6 0 3.8 2.8 6.6 6.9 6.6Z" fill="#FFFDF8" stroke="#4A6142" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        <span class="brand-name">Cortex <em>Under Construction</em></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+        <span>Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html" aria-current="page">Articles</a></li>
+        <li><a href="index.html#topics">Topics</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--
+    ============================================================
+    ARTICLE TEMPLATE — HOW TO USE
+    1. In GitHub, open this file and copy ALL of it.
+    2. Create a new file named like:  article-your-topic.html
+       (lowercase, hyphens instead of spaces, ending in .html)
+    3. Paste, then replace everything written in CAPITALS or
+       marked "REPLACE" below with your own words.
+    4. Change the <title> and description near the very top.
+    5. Delete the yellow "template-note" box.
+    6. Add a matching entry to articles-list.js (see README.md).
+    ============================================================
+  -->
+  <main id="main">
+    <article class="article">
+
+      <header class="article-head container narrow">
+        <!-- REPLACE: pick ONE topic. The class and the link must match:
+             cat-medicine / cat-discoveries / cat-psychology /
+             cat-philosophy / cat-society / cat-growth -->
+        <a class="tag cat-medicine" href="articles.html?topic=medicine">Medicine &amp; Pharmacology</a>
+
+        <h1>YOUR ARTICLE TITLE</h1>
+        <p class="dek">ONE OR TWO SENTENCES THAT MAKE SOMEONE WANT TO READ ON.</p>
+
+        <!-- REPLACE: reading time and date. Keep the date format YYYY-MM-DD inside datetime="" -->
+        <p class="article-meta"><span>5 min read</span><span aria-hidden="true">·</span><time datetime="2026-11-01">1 November 2026</time></p>
+      </header>
+
+      <div class="divider" aria-hidden="true">
+        <svg viewBox="0 0 140 28" xmlns="http://www.w3.org/2000/svg"><path d="M8 16h124" stroke="#CFC7AE" stroke-width="1.2" stroke-dasharray="3 6"/><path d="M70 25V12" fill="none" stroke="#4A6142" stroke-width="1.6" stroke-linecap="round"/><path d="M70 14c0-4.4 3.2-7.6 7.8-7.6 0 4.4-3.2 7.6-7.8 7.6Z" fill="#9DB08A" stroke="#4A6142" stroke-width="1.4"/><path d="M70 17.5c0-3.8-2.8-6.6-6.9-6.6 0 3.8 2.8 6.6 6.9 6.6Z" fill="#F3E19E" stroke="#4A6142" stroke-width="1.4"/></svg>
+      </div>
+
+      <div class="prose container narrow">
+
+        <div class="template-note">✏️ This is the article template. Delete this yellow box when you write a real article.</div>
+
+        <!-- Each paragraph goes between <p> and </p> -->
+        <p>YOUR OPENING PARAGRAPH. The first letter will automatically become a large decorative letter.</p>
+        <p>ANOTHER PARAGRAPH.</p>
+
+        <!-- A section heading -->
+        <h2>A SECTION HEADING</h2>
+        <p>MORE TEXT. You can make words <strong>bold</strong> or <em>italic</em>, and add a link like <a href="article-placebo.html">this one</a>.</p>
+
+        <!-- A highlighted "Key idea" box (optional) -->
+        <p class="key-idea">THE ONE THING YOU WANT READERS TO REMEMBER.</p>
+
+        <!-- A bulleted list (optional) -->
+        <ul>
+          <li>FIRST POINT</li>
+          <li>SECOND POINT</li>
+        </ul>
+
+        <!-- A quotation (optional) -->
+        <blockquote>
+          A SHORT QUOTATION.
+          <cite>WHO SAID IT, AND WHERE</cite>
+        </blockquote>
+
+        <!-- The evidence box (recommended for science and medicine) -->
+        <aside class="evidence" aria-labelledby="evidence-new">
+          <h2 class="evidence-heading" id="evidence-new">What we know, and what we don’t</h2>
+          <div class="evidence-col evidence-col--solid">
+            <h3>Well established</h3>
+            <ul>
+              <li>A FINDING WITH STRONG, CONSISTENT EVIDENCE.</li>
+            </ul>
+          </div>
+          <div class="evidence-col evidence-col--open">
+            <h3>Still uncertain</h3>
+            <ul>
+              <li>A QUESTION THAT IS STILL DEBATED OR UNTESTED.</li>
+            </ul>
+          </div>
+        </aside>
+
+        <!-- References: only list sources you have actually read and checked -->
+        <section class="references" aria-labelledby="refs-new">
+          <h2 id="refs-new">References</h2>
+          <ol>
+            <li>AUTHOR A, AUTHOR B. Title of the paper. <em>Journal Name</em>. Year;Volume(Issue):Pages. <a href="https://doi.org/REPLACE">doi:REPLACE</a></li>
+          </ol>
+        </section>
+
+        <!-- Keep this for medical topics; delete for others -->
+        <p class="disclaimer">This essay is for general education only and is not medical advice.</p>
+      </div>
+    </article>
+
+    <!-- "Keep exploring" cards appear here automatically.
+         REPLACE the data-current value with this article's id from articles-list.js -->
+    <section class="section related" aria-labelledby="related-heading">
+      <div class="container">
+        <div class="section-head"><h2 id="related-heading">Keep exploring</h2></div>
+        <div id="related-list" class="card-grid" data-current="your-article-id"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== SITE FOOTER (the same on every page) ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">Cortex <em>Under Construction</em></p>
+        <p class="footer-tagline">Learning a little. Questioning a lot. Growing every day.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html">All articles</a></li>
+          <li><a href="index.html#topics">Topics</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <p class="footer-note">Everything here is written for education and curiosity. It is not medical, legal or financial advice. For decisions about your own health, please speak to a qualified professional.</p>
+    </div>
+    <div class="container footer-base">
+      <p>&copy; <span data-year>2026</span> Cortex Under Construction &middot; An anonymous, independent knowledge journal.</p>
+    </div>
+  </footer>
+
+  <script src="articles-list.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
