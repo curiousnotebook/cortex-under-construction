@@ -121,6 +121,9 @@
       </div>
     </article>
 
+    <!-- Reactions and discussion (filled in automatically by discussion.js) -->
+    <section id="discussion" class="section discussion" data-article="learning" aria-label="Reactions and discussion" hidden></section>
+
     <section class="section related" aria-labelledby="related-heading">
       <div class="container">
         <div class="section-head"><h2 id="related-heading">Keep exploring</h2></div>
@@ -153,5 +156,8 @@
 
   <script src="articles-list.js"></script>
   <script src="script.js"></script>
+  <!-- Reactions and discussion (settings live in firebase-config.js) -->
+  <script src="firebase-config.js"></script>
+  <script type="module" src="discussion.js"></script>
 </body>
 </html>

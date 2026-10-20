@@ -20,6 +20,10 @@ An anonymous, independent knowledge journal. This is a plain static website (HTM
 | `style.css` | Colours, fonts, layout | Only to change the look |
 | `script.js` | Menu, search, cards | No |
 | `favicon.svg` | The little sprout icon in the browser tab | No |
+| `discussion.js` | Reactions, discussion and author sign-in | Only to change the reactions |
+| `firebase-config.js` | Your Firebase settings (pasted once) | Once, during setup |
+| `firestore-rules.txt` | Security rules to paste into Firebase | Once, during setup |
+| `login.html` | Your author sign-in page (not in the menu) | No |
 
 ---
 
@@ -37,11 +41,22 @@ An anonymous, independent knowledge journal. This is a plain static website (HTM
 
 ---
 
+## Reactions and discussion
+
+Every article ends with five reactions and a discussion section. Readers join with only a display name (no email or password); their account is kept in their browser. Comments, reactions and names are stored in **Firebase** (Google's free Spark plan, no card needed).
+
+- **Your sign-in page:** `https://curiousnotebook.github.io/cortex-under-construction/login.html` (bookmark it; it isn't in the menu).
+- **Moderating:** sign in, open any article, and use **Delete** under any comment. You can also delete comments in Firebase → Firestore Database → Data.
+- **Built-in protection:** readers can post at most once every 30 seconds, comments are limited to 2,000 characters, comments can't be edited after posting, and readers can't choose names containing *cortex*, *admin*, *author* or *moderator*.
+- **New articles:** the discussion section is in the template. Set its `data-article="..."` to the article's id from `articles-list.js`.
+- **Free limits:** about 50,000 reads and 20,000 writes per day. If a very busy day ever uses these up, the discussion pauses until the next day; the rest of the site keeps working.
+
 ## Common fixes
 
 - **The homepage cards disappeared.** There's almost certainly a small typo in `articles-list.js`: a missing comma, quotation mark or bracket. Compare your new block carefully with the one below it.
 - **A link doesn't work.** Check that the file name in the link matches the real file name exactly, including capital letters.
 - **The menu or header needs changing.** The header and footer are repeated at the top and bottom of every `.html` file, so change them in each file.
+- **The discussion section doesn't appear.** Check `firebase-config.js`: the pasted block must start with `const firebaseConfig = {` and end with `};`.
 - **Changing colours.** Open `style.css` and edit the colour codes in the `:root` section at the top.
 
 ---

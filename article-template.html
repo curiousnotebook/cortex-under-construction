@@ -129,6 +129,10 @@
       </div>
     </article>
 
+    <!-- Reactions and discussion appear here automatically.
+         REPLACE data-article with this article's id from articles-list.js -->
+    <section id="discussion" class="section discussion" data-article="your-article-id" aria-label="Reactions and discussion" hidden></section>
+
     <!-- "Keep exploring" cards appear here automatically.
          REPLACE the data-current value with this article's id from articles-list.js -->
     <section class="section related" aria-labelledby="related-heading">
@@ -163,5 +167,8 @@
 
   <script src="articles-list.js"></script>
   <script src="script.js"></script>
+  <!-- Reactions and discussion (settings live in firebase-config.js) -->
+  <script src="firebase-config.js"></script>
+  <script type="module" src="discussion.js"></script>
 </body>
 </html>

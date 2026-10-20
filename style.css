@@ -46,6 +46,7 @@
 
 /* ---------- Basic reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 html {
   -webkit-text-size-adjust: 100%;
@@ -929,4 +930,157 @@ a.tag:hover { color: var(--ink); filter: brightness(0.97); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* ==========================================================
+   REACTIONS, DISCUSSION AND AUTHOR SIGN-IN
+   (used by discussion.js)
+   ========================================================== */
+.discussion { padding-top: 1rem; padding-bottom: 1rem; }
+
+.reactions-card,
+.comments-card,
+.auth-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+.reactions-card { background: var(--butter-soft); border-color: transparent; text-align: center; }
+
+.discussion-title { font-size: 1.5rem; margin-bottom: 0.4rem; }
+.comment-count { font-weight: 400; color: var(--ink-faint); font-size: 1.1rem; }
+.discussion-sub { color: var(--ink-soft); font-size: 1rem; margin-bottom: 1.25rem; }
+
+.reaction-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.reaction-bar.is-loading { opacity: 0.6; }
+.reaction {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  min-width: 92px;
+  padding: 0.7rem 0.6rem 0.6rem;
+  background: var(--paper);
+  border: 1.5px solid var(--line);
+  border-radius: 16px;
+  font-family: var(--font-ui);
+  color: var(--ink);
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+.reaction:hover { transform: translateY(-2px); border-color: var(--sage); }
+.reaction[aria-pressed="true"] { background: var(--sage-soft); border-color: var(--sage-deep); }
+.r-emoji { font-size: 1.6rem; line-height: 1.2; }
+.r-label { font-size: 0.78rem; font-weight: 500; color: var(--ink-soft); }
+.r-count { font-size: 0.85rem; font-weight: 600; }
+
+.field-label {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 0.4rem;
+}
+.field-hint { font-family: var(--font-ui); font-size: 0.82rem; color: var(--ink-faint); margin: 0.5rem 0 0; }
+
+.discussion input[type="text"],
+.discussion textarea,
+.auth-card input {
+  width: 100%;
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--cream);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.7rem 0.9rem;
+}
+.discussion textarea { font-family: var(--font-body); font-size: 1.05rem; line-height: 1.55; resize: vertical; min-height: 110px; }
+.discussion input:focus,
+.discussion textarea:focus,
+.auth-card input:focus { outline: 2px solid var(--sage-deep); outline-offset: 1px; border-color: var(--sage-deep); }
+
+.inline-field { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.inline-field input { flex: 1; min-width: 180px; }
+
+.form-row { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 0.6rem; }
+.char-count { font-family: var(--font-ui); font-size: 0.8rem; color: var(--ink-faint); }
+
+.commenting-as { font-family: var(--font-ui); font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 0.6rem; }
+
+.link-btn {
+  background: none;
+  border: 0;
+  padding: 0.2rem 0;
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  color: var(--sage-deep);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+.link-btn:hover { color: var(--ink); }
+
+.discussion-status { font-family: var(--font-ui); font-size: 0.9rem; color: var(--sage-deep); min-height: 1.4em; margin: 0.9rem 0 0; }
+.discussion-status.is-error { color: #A13D2D; }
+
+.author-badge {
+  display: inline-block;
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: var(--sage-deep);
+  color: var(--cream);
+  border-radius: 999px;
+  padding: 0.12rem 0.55rem;
+  vertical-align: middle;
+}
+
+.comment-list { list-style: none; margin: 1.25rem 0 0; padding: 0; }
+.comment { padding: 1.1rem 0; border-top: 1px solid var(--line); }
+.comment--author { background: linear-gradient(90deg, var(--butter-soft), transparent 70%); padding-left: 0.9rem; margin-left: -0.9rem; border-radius: 10px; }
+.comment-head { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.45rem; }
+.comment-avatar {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  display: grid; place-items: center;
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--ink);
+}
+.comment-name { font-family: var(--font-ui); font-weight: 600; font-size: 0.95rem; }
+.comment-time { font-family: var(--font-ui); font-size: 0.8rem; color: var(--ink-faint); }
+.comment-text { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0 0 0.3rem 2.5rem; font-size: 1.05rem; line-height: 1.6; }
+.comment-delete { margin-left: 2.5rem; font-size: 0.8rem; color: #A13D2D; }
+.comments-empty { font-style: italic; color: var(--ink-faint); margin-top: 1rem; }
+
+/* Author sign-in page */
+.author-login { max-width: 480px; }
+.auth-card h2 { font-size: 1.5rem; }
+.auth-card input { margin-bottom: 1rem; }
+.auth-card .inline-field input { margin-bottom: 0; }
+.author-name-form { margin-bottom: 1.25rem; }
+.uid-row code {
+  font-size: 0.85rem;
+  background: var(--sand);
+  border-radius: 8px;
+  padding: 0.35rem 0.6rem;
+  overflow-wrap: anywhere;
+}
+.panel-actions { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; margin-top: 1.25rem; }
+
+@media (max-width: 640px) {
+  .reactions-card, .comments-card, .auth-card { padding: 1.25rem; }
+  .reaction { min-width: 0; flex: 1 1 28%; }
+  .comment-text, .comment-delete { margin-left: 0; }
 }
