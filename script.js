@@ -29,7 +29,9 @@
     society:
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M4 10h16"/><path d="M12 3 4 7.5h16Z"/><path d="M6.5 10v8M10 10v8M14 10v8M17.5 10v8"/></svg>',
     growth:
-      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-9"/><path d="M12 12c0-4 3-7 8-7 0 4-3 7-8 7Z"/><path d="M12 14.5c0-3.2-2.6-5.7-7-5.7 0 3.2 2.6 5.7 7 5.7Z"/><path d="M8 21h8"/></svg>'
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-9"/><path d="M12 12c0-4 3-7 8-7 0 4-3 7-8 7Z"/><path d="M12 14.5c0-3.2-2.6-5.7-7-5.7 0 3.2 2.6 5.7 7 5.7Z"/><path d="M8 21h8"/></svg>',
+    myths:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 19.8l1.3-4A8 8 0 1 1 20 11.5Z"/><path d="M9.8 9a2.3 2.3 0 1 1 3.1 2.2c-.6.2-.9.7-.9 1.3v.4"/><path d="M12 15.2h.01"/></svg>'
   };
 
   /* ---------- Read the article list (from articles-list.js) ---------- */
