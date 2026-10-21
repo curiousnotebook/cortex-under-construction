@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
    {
+  id: "replication-crisis",
+  title: "The Replication Crisis: When Scientific Findings Don’t Hold Up",
+  description: "Many published findings fail when other teams repeat them. A look at the evidence from psychology, cancer biology and social science, and why it matters.",
+  category: "discoveries",
+  readingTime: 7,
+  date: "2026-11-03",
+  file: "article-replication-crisis.html",
+  featured: false,
+  keywords: ["replication crisis", "reproducibility", "open science collaboration", "cancer biology", "p-hacking", "publication bias", "Ioannidis", "meta-science"],
+  related: ["base-rates", "goodhart", "survivorship-bias"]
+},
+   {
   id: "medicine-timing",
   title: "Does the Time You Take a Medicine Matter?",
   description: "For some drugs, the hour of the day changes how well they work and how much harm they cause. For others, the question turns out to be much less important than the headlines suggest.",
