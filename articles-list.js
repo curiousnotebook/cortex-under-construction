@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
    {
+  id: "spotlight-effect",
+  title: "The Spotlight Effect: Everyone Is Not Watching You",
+  description: "We overestimate how much others notice our appearance, mistakes and behaviour. The research on the spotlight effect, the illusion of transparency and the imaginary audience.",
+  category: "psychology",
+  readingTime: 6,
+  date: "2026-11-09",
+  file: "article-spotlight-effect.html",
+  featured: false,
+  keywords: ["spotlight effect", "illusion of transparency", "imaginary audience", "self-consciousness", "social anxiety", "Barry Manilow", "egocentrism", "embarrassment"],
+  related: ["intelligent-false-beliefs", "memory", "motivation-unreliable"]
+},
+   {
   id: "occams-razor",
   title: "Occam’s Razor: Is the Simplest Explanation Always Best?",
   description: "Occam’s razor is a useful guide, not a law. A look at where the idea came from, why statisticians can justify it, and when a simple explanation misleads.",
