@@ -77,6 +77,18 @@ const SITE_ARTICLES = [
     related: ["born-unfinished", "goodhart", "h-pylori"]
   },
    {
+  id: "survivorship-bias",
+  title: "Survivorship Bias: The Success Stories You Never Hear About",
+  description: "We learn from the winners we can see. The people who tried the same thing and quietly disappeared are missing from the lesson.",
+  category: "philosophy",
+  readingTime: 6,
+  date: "2026-10-25",
+  file: "article-survivorship-bias.html",
+  featured: false,
+  keywords: ["survivorship bias", "survivor bias", "Abraham Wald", "bombers", "mutual funds", "dropouts", "success stories", "base rates"],
+  related: ["base-rates", "goodhart", "memory"]
+},
+   {
   id: "intelligent-false-beliefs",
   title: "Why Intelligent People Believe Things That Aren’t True",
   description: "Intelligence does not reliably protect us from false beliefs. Research suggests clever reasoning can defend a conclusion we already wanted, and that analytic habits matter more than raw IQ.",
