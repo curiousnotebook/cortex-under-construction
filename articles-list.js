@@ -53,6 +53,11 @@ const SITE_CATEGORIES = [
     slug: "growth",
     name: "Learning & Personal Growth",
     description: "Evidence-informed ways to learn, work and grow."
+  },
+  {
+    slug: "myths",
+    name: "Who Said So?",
+    description: "Things our elders swore by, put to the test. Some are pure myth; some have real logic behind them."
   }
 ];
 
