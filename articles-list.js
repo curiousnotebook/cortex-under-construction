@@ -165,7 +165,7 @@ const SITE_ARTICLES = [
   title: "Why Intelligent People Believe Things That Aren’t True",
   description: "Intelligence does not reliably protect us from false beliefs. Research suggests clever reasoning can defend a conclusion we already wanted, and that analytic habits matter more than raw IQ.",
   category: "psychology",
-  readingTime: 6,
+  readingTime: 9,
   date: "2026-10-23",
   file: "article-why-smart-people-believe-false-things.html",
   featured: false,
