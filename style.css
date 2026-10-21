@@ -30,6 +30,7 @@
   --philosophy: #5F868B;   --philosophy-soft: #E1EAEA;
   --society: #A8775A;      --society-soft: #F4E5DA;
   --growth: #7F9440;       --growth-soft: #ECF0D6;
+  --myths: #A86B7C;        --myths-soft: #F4E4E8;
 
   /* --- Fonts --- */
   --font-display: "Fraunces", Georgia, "Times New Roman", serif;
@@ -400,6 +401,7 @@ p { margin: 0 0 1em; }
 .cat-philosophy  { --cat: var(--philosophy);  --cat-soft: var(--philosophy-soft); }
 .cat-society     { --cat: var(--society);     --cat-soft: var(--society-soft); }
 .cat-growth      { --cat: var(--growth);      --cat-soft: var(--growth-soft); }
+.cat-myths       { --cat: var(--myths);       --cat-soft: var(--myths-soft); }
 
 .tag {
   display: inline-flex;
