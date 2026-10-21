@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
    {
+  id: "period-myths",
+  title: "Period Myths: What Our Elders Swore By, and What Holds Up",
+  description: "Some period myths are harmless nonsense. Some have caused real restriction and shame. A few turn out to be partly true, which is what makes them hard to shake.",
+  category: "myths",
+  readingTime: 7,
+  date: "2026-11-05",
+  file: "article-period-myths.html",
+  featured: false,
+  keywords: ["periods", "menstruation", "menstrual myths", "synchronised cycles", "tampons", "virginity", "exercise", "swimming", "PMS", "PMDD", "taboo"],
+  related: ["daily-bath", "memory", "base-rates"]
+},
+   {
   id: "replication-crisis",
   title: "The Replication Crisis: When Scientific Findings Don’t Hold Up",
   description: "Many published findings fail when other teams repeat them. A look at the evidence from psychology, cancer biology and social science, and why it matters.",
