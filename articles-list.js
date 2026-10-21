@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
      {
+    id: "religion-and-geography",
+    title: "Where Gods Live: How Geography Shaped Religion",
+    description: "Religions did not appear at random. The land, rivers, climate and neighbours around a people helped shape what they believed, and the pattern still follows the map.",
+    category: "society",
+    readingTime: 5,
+    date: "2026-10-28",
+    file: "article-religion-and-geography.html",
+    featured: false,
+    keywords: ["religion", "geography", "agriculture", "big gods", "Göbekli Tepe", "silk road", "buddhism", "islam", "christianity", "hinduism", "culture"],
+    related: ["born-unfinished", "goodhart", "h-pylori"]
+  },
+     {
     id: "daily-bath",
     title: "Do We Really Need to Bathe Every Day?",
     description: "Our elders insisted on a daily bath. The science says they were right, but mostly about certain parts of the body and certain kinds of weather.",
