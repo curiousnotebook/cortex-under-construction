@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
    {
+  id: "occams-razor",
+  title: "Occam’s Razor: Is the Simplest Explanation Always Best?",
+  description: "Occam’s razor is a useful guide, not a law. A look at where the idea came from, why statisticians can justify it, and when a simple explanation misleads.",
+  category: "philosophy",
+  readingTime: 7,
+  date: "2026-11-07",
+  file: "article-occams-razor.html",
+  featured: false,
+  keywords: ["occam's razor", "ockham's razor", "parsimony", "Bayesian inference", "AIC", "model selection", "Hickam's dictum", "simplicity"],
+  related: ["base-rates", "survivorship-bias", "replication-crisis"]
+},
+   {
   id: "period-myths",
   title: "Period Myths: What Our Elders Swore By, and What Holds Up",
   description: "Some period myths are harmless nonsense. Some have caused real restriction and shame. A few turn out to be partly true, which is what makes them hard to shake.",
