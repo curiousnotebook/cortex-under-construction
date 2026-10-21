@@ -580,10 +580,9 @@ a.tag:hover { color: var(--ink); filter: brightness(0.97); }
 .recent-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
 .recent-list li {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0.4rem 1.5rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
   padding: 1.1rem 0;
   border-bottom: 1px solid var(--line);
 }
