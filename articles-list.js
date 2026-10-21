@@ -153,7 +153,7 @@ const SITE_ARTICLES = [
   title: "Survivorship Bias: The Success Stories You Never Hear About",
   description: "We learn from the winners we can see. The people who tried the same thing and quietly disappeared are missing from the lesson.",
   category: "philosophy",
-  readingTime: 6,
+  readingTime: 8,
   date: "2026-10-25",
   file: "article-survivorship-bias.html",
   featured: false,
