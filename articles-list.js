@@ -59,6 +59,18 @@ const SITE_CATEGORIES = [
 
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
+     {
+    id: "born-unfinished",
+    title: "Born Unfinished: Why Human Babies Can’t Hold Up Their Heads",
+    description: "A foal stands within hours of birth; a human baby needs months to hold up its head. The answer runs through our hips, our brains and our mothers’ energy budgets.",
+    category: "society",
+    readingTime: 8,
+    date: "2026-10-19",
+    file: "article-born-unfinished.html",
+    featured: false,
+    keywords: ["evolution", "bipedalism", "pelvis", "childbirth", "obstetric dilemma", "newborn", "brain development", "pregnancy", "gestation", "altricial", "anthropology"],
+    related: ["h-pylori", "learning", "memory"]
+  },
   {
     id: "placebo",                          // a short unique name, no spaces
     title: "The Placebo Puzzle: What Sugar Pills Can (and Can’t) Do",
