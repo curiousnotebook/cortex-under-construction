@@ -79,7 +79,7 @@ const SITE_ARTICLES = [
     readingTime: 6,                         // minutes
     date: "2026-10-18",                     // YYYY-MM-DD
     file: "article-placebo.html",           // the article's file name
-    featured: true,                         // true = show on homepage
+    featured: false,                         // true = show on homepage
     keywords: ["placebo", "nocebo", "clinical trials", "pain", "expectation", "asthma", "naloxone", "pharmacology"],
     related: ["base-rates", "memory", "goodhart"]   // ids of related articles
   },
@@ -91,7 +91,7 @@ const SITE_ARTICLES = [
     readingTime: 5,
     date: "2026-10-15",
     file: "article-stomach-bacterium.html",
-    featured: true,
+    featured: false,
     keywords: ["helicobacter pylori", "h. pylori", "ulcer", "stomach", "nobel prize", "scientific consensus", "antibiotics", "history of medicine"],
     related: ["base-rates", "placebo", "goodhart"]
   },
@@ -103,7 +103,7 @@ const SITE_ARTICLES = [
     readingTime: 5,
     date: "2026-10-12",
     file: "article-memory-storyteller.html",
-    featured: true,
+    featured: false,
     keywords: ["memory", "false memories", "eyewitness", "loftus", "reconsolidation", "brain", "recall"],
     related: ["learning", "placebo", "base-rates"]
   },
