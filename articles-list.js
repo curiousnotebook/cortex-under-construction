@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
      {
+    id: "daily-bath",
+    title: "Do We Really Need to Bathe Every Day?",
+    description: "Our elders insisted on a daily bath. The science says they were right, but mostly about certain parts of the body and certain kinds of weather.",
+    category: "myths",
+    readingTime: 5,
+    date: "2026-10-21",
+    file: "article-daily-bath.html",
+    featured: false,
+    keywords: ["bath", "bathing", "shower", "hygiene", "body odour", "sweat", "soap", "skin barrier", "eczema", "ringworm", "handwashing", "myths"],
+    related: []
+  },
+     {
     id: "born-unfinished",
     title: "Born Unfinished: Why Human Babies Can’t Hold Up Their Heads",
     description: "A foal stands within hours of birth; a human baby needs months to hold up its head. The answer runs through our hips, our brains and our mothers’ energy budgets.",
