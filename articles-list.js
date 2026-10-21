@@ -129,7 +129,7 @@ const SITE_ARTICLES = [
   title: "Why Motivation Is an Unreliable Strategy",
   description: "Waiting to feel motivated is a poor plan. Research on the intention-behaviour gap, implementation intentions, rewards and habits suggests what works better.",
   category: "growth",
-  readingTime: 6,
+  readingTime: 8,
   date: "2026-10-30",
   file: "article-why-motivation-is-unreliable.html",
   featured: false,
