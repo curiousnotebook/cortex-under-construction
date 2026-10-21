@@ -64,7 +64,7 @@ const SITE_ARTICLES = [
     title: "Born Unfinished: Why Human Babies Can’t Hold Up Their Heads",
     description: "A foal stands within hours of birth; a human baby needs months to hold up its head. The answer runs through our hips, our brains and our mothers’ energy budgets.",
     category: "society",
-    readingTime: 8,
+    readingTime: 10,
     date: "2026-10-19",
     file: "article-born-unfinished.html",
     featured: false,
