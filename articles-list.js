@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
    {
+  id: "medicine-timing",
+  title: "Does the Time You Take a Medicine Matter?",
+  description: "For some drugs, the hour of the day changes how well they work and how much harm they cause. For others, the question turns out to be much less important than the headlines suggest.",
+  category: "medicine",
+  readingTime: 7,
+  date: "2026-11-01",
+  file: "article-does-timing-of-medicine-matter.html",
+  featured: false,
+  keywords: ["chronopharmacology", "chronotherapy", "blood pressure", "bedtime dosing", "statins", "chemotherapy", "circadian rhythm", "Hygia"],
+  related: ["placebo", "base-rates", "goodhart"]
+},
+   {
   id: "motivation-unreliable",
   title: "Why Motivation Is an Unreliable Strategy",
   description: "Waiting to feel motivated is a poor plan. Research on the intention-behaviour gap, implementation intentions, rewards and habits suggests what works better.",
