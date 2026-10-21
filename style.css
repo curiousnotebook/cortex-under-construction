@@ -137,10 +137,7 @@ p { margin: 0 0 1em; }
   margin-bottom: 1rem;
 }
 .eyebrow::before {
-  content: "";
-  width: 1.6rem;
-  height: 1px;
-  background: currentColor;
+  display: none;
 }
 
 /* ==========================================================
