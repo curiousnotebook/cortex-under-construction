@@ -76,6 +76,18 @@ const SITE_ARTICLES = [
     keywords: ["religion", "geography", "agriculture", "big gods", "Göbekli Tepe", "silk road", "buddhism", "islam", "christianity", "hinduism", "culture"],
     related: ["born-unfinished", "goodhart", "h-pylori"]
   },
+   {
+  id: "intelligent-false-beliefs",
+  title: "Why Intelligent People Believe Things That Aren’t True",
+  description: "Intelligence does not reliably protect us from false beliefs. Research suggests clever reasoning can defend a conclusion we already wanted, and that analytic habits matter more than raw IQ.",
+  category: "psychology",
+  readingTime: 6,
+  date: "2026-10-23",
+  file: "article-why-smart-people-believe-false-things.html",
+  featured: false,
+  keywords: ["bias blind spot", "myside bias", "motivated reasoning", "motivated numeracy", "cognitive reflection", "fake news", "intelligence", "critical thinking"],
+  related: ["memory", "base-rates", "learning"]
+},
      {
     id: "daily-bath",
     title: "Do We Really Need to Bathe Every Day?",
