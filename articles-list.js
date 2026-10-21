@@ -64,6 +64,18 @@ const SITE_CATEGORIES = [
 
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
+   {
+  id: "motivation-unreliable",
+  title: "Why Motivation Is an Unreliable Strategy",
+  description: "Waiting to feel motivated is a poor plan. Research on the intention-behaviour gap, implementation intentions, rewards and habits suggests what works better.",
+  category: "growth",
+  readingTime: 6,
+  date: "2026-10-30",
+  file: "article-why-motivation-is-unreliable.html",
+  featured: false,
+  keywords: ["motivation", "intention-behaviour gap", "implementation intentions", "habits", "rewards", "self-control", "behaviour change", "productivity"],
+  related: ["learning", "goodhart", "survivorship-bias"]
+},
      {
     id: "religion-and-geography",
     title: "Where Gods Live: How Geography Shaped Religion",
