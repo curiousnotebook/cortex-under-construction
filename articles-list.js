@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
    {
+  id: "habits-without-willpower",
+  title: "How to Build Habits Without Depending on Willpower",
+  description: "The people with the most self-control seem to use it the least. What research on temptation, ego depletion, cues, friction, commitment devices and defaults shows about building habits that do not rely on willpower.",
+  category: "growth",
+  readingTime: 12,
+  date: "2026-12-31",
+  file: "article-habits-without-willpower.html",
+  featured: false,
+  keywords: ["willpower", "self-control", "habits", "habit formation", "ego depletion", "temptation", "friction", "environment design", "habit stacking", "commitment devices", "temptation bundling", "defaults", "New Year's resolutions", "behavioural economics"],
+  related: ["abandon-new-habits", "motivation-unreliable", "perfect-routine"]
+},
+   {
   id: "antibiotic-course",
   title: "“Finish the Whole Course”: Is the Antibiotic Rule Actually True?",
   description: "Stop antibiotics early and the germs come back stronger, or so we were told. A 2017 BMJ analysis questioned the rule. What the trials show, where the full course still matters, and India’s bigger problem with antibiotics sold without prescription.",
