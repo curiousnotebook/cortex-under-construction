@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
          {
+  id: "medicine-expiry",
+  title: "What Really Happens to a Medicine After Its Expiry Date?",
+  description: "The US military found many stockpiled drugs still potent years past expiry. So what does the date on a strip of tablets really mean, which medicines genuinely degrade, and what should you do with old ones?",
+  category: "medicine",
+  readingTime: 10,
+  date: "2026-12-17",
+  file: "article-medicine-expiry-dates.html",
+  featured: false,
+  keywords: ["expiry date", "expiration date", "expired medicines", "shelf life", "SLEP", "stability testing", "storage", "insulin", "EpiPen", "tetracycline", "drug disposal", "CDSCO"],
+  related: ["grapefruit-problem", "pill-appearance", "economics-of-free"]
+},
+         {
   id: "question-belief-respectfully",
   title: "How to Question a Belief Without Disrespecting the Person Who Holds It",
   description: "How to question a belief held by a parent, grandparent or friend without damaging the relationship. What research on listening, self-affirmation, explaining, values and debunking shows actually helps.",
