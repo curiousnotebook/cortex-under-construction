@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "household-superstitions",
+  title: "Don’t Sweep After Sunset: The Logic Behind Household Superstitions",
+  description: "No sweeping after dark, no cutting nails at night, no hair washing on certain days, and beware the black cat. Where these rules came from, which have a practical core, and why we keep them.",
+  category: "myths",
+  readingTime: 7,
+  date: "2026-11-17",
+  file: "article-household-superstitions.html",
+  featured: false,
+  keywords: ["superstitions", "sweeping after sunset", "Lakshmi", "cutting nails at night", "hair washing days", "black cat", "bad luck", "Skinner pigeons", "Indian beliefs", "rituals"],
+  related: ["period-myths", "daily-bath", "intelligent-false-beliefs"]
+},
+      {
   id: "clair-patterson-lead",
   title: "The Man Who Dated the Earth and Found the Poison in Our Air",
   description: "Clair Patterson set out to measure the age of the Earth. The lead contaminating his lab led him to a poison the whole world was breathing, and a long fight to end leaded petrol.",
