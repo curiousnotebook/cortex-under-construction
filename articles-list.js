@@ -64,6 +64,18 @@ const SITE_CATEGORIES = [
 
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
+   {
+  id: "spices-reshaped-world",
+  title: "How Spices Helped Reshape the World",
+  description: "Pepper in a pharaoh’s nose, Rome’s pepper bill, the voyages of Columbus and da Gama, the first tradable shares, a massacre in the Banda Islands and the chilli’s arrival in India.",
+  category: "society",
+  readingTime: 9,
+  date: "2026-12-23",
+  file: "article-spices-reshaped-world.html",
+  featured: false,
+  keywords: ["spices", "pepper", "spice trade", "Vasco da Gama", "Columbus", "Dutch East India Company", "VOC", "East India Company", "Banda Islands", "nutmeg", "Muziris", "chilli", "India spice exports", "history of trade"],
+  related: ["economics-of-free", "religion-and-geography", "india-one-clock"]
+},
          {
   id: "ship-of-theseus",
   title: "The Ship of Theseus: What Makes You the Same Person Over Time?",
