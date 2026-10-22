@@ -64,6 +64,18 @@ const SITE_CATEGORIES = [
 
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
+      {
+  id: "perfect-routine",
+  title: "The Myth of the Perfect Routine: Why Flexible Beats Flawless",
+  description: "The ideal daily routine is a popular fantasy. Research on body clocks, broken streaks, perfectionism and flexible habits suggests a better approach.",
+  category: "growth",
+  readingTime: 7,
+  date: "2026-11-11",
+  file: "article-perfect-routine.html",
+  featured: false,
+  keywords: ["routine", "morning routine", "perfectionism", "habits", "streaks", "chronotype", "social jetlag", "planning fallacy", "consistency", "productivity"],
+  related: ["motivation-unreliable", "spotlight-effect", "survivorship-bias"]
+},
    {
   id: "spotlight-effect",
   title: "The Spotlight Effect: Everyone Is Not Watching You",
