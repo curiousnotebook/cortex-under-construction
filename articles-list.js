@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
          {
+  id: "question-belief-respectfully",
+  title: "How to Question a Belief Without Disrespecting the Person Who Holds It",
+  description: "How to question a belief held by a parent, grandparent or friend without damaging the relationship. What research on listening, self-affirmation, explaining, values and debunking shows actually helps.",
+  category: "myths",
+  readingTime: 10,
+  date: "2026-12-15",
+  file: "article-question-belief-respectfully.html",
+  featured: false,
+  keywords: ["disagreement", "respect", "elders", "family", "backfire effect", "listening", "self-affirmation", "illusion of explanatory depth", "moral reframing", "debunking", "motivational interviewing", "deep canvassing", "conspiracy beliefs"],
+  related: ["household-superstitions", "intelligent-false-beliefs", "spotlight-effect"]
+},
+         {
   id: "abandon-new-habits",
   title: "Why We Abandon New Habits After a Few Days",
   description: "New habits often collapse within days. What research on habit formation, fresh starts, missed days, immediate rewards and cues shows about why, and why the 21-day rule sets us up to fail.",
