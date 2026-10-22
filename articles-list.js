@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "knuckle-cracking",
+  title: "Does Cracking Your Knuckles Cause Arthritis? The Doctor Who Tested It on One Hand",
+  description: "A doctor cracked the knuckles of only one hand for decades to test the old warning, and won an Ig Nobel Prize. What his experiment and larger studies show, and what the crack really is.",
+  category: "myths",
+  readingTime: 5,
+  date: "2026-12-01",
+  file: "article-knuckle-cracking.html",
+  featured: false,
+  keywords: ["knuckle cracking", "arthritis", "osteoarthritis", "Donald Unger", "Ig Nobel Prize", "synovial fluid", "cavitation", "joint cracking", "grip strength", "myths"],
+  related: ["household-superstitions", "daily-bath", "survivorship-bias"]
+},
+      {
   id: "shower-ideas",
   title: "Why Ideas Come in the Shower: The Science of Stepping Away",
   description: "Why answers often arrive after we stop trying. What research on incubation, mind wandering, walking and sleep shows about stepping away from a problem, and what has not held up.",
