@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
          {
+  id: "abandon-new-habits",
+  title: "Why We Abandon New Habits After a Few Days",
+  description: "New habits often collapse within days. What research on habit formation, fresh starts, missed days, immediate rewards and cues shows about why, and why the 21-day rule sets us up to fail.",
+  category: "growth",
+  readingTime: 10,
+  date: "2026-12-13",
+  file: "article-abandon-new-habits.html",
+  featured: false,
+  keywords: ["habits", "habit formation", "21 days myth", "66 days", "Lally", "fresh start effect", "New Year's resolutions", "missed days", "what-the-hell effect", "immediate rewards", "cues", "gym", "consistency"],
+  related: ["motivation-unreliable", "perfect-routine", "learning"]
+},
+         {
   id: "economics-of-free",
   title: "The Economics of Free Things: Is Anything Really Free?",
   description: "Free apps, free trials, free UPI payments and free data. Who really pays for free things, why zero is a special price, and when giving things away free works better than charging a little.",
