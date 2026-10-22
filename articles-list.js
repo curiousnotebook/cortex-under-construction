@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
          {
+  id: "penicillin-second-discovery",
+  title: "Penicillin’s Forgotten Second Discovery",
+  description: "Fleming found penicillin in 1928, then it sat on a shelf for a decade. How an Oxford team, a bedpan factory, eight mice and a dying policeman discovered it a second time, and why the story we tell leaves them out.",
+  category: "discoveries",
+  readingTime: 10,
+  date: "2026-12-19",
+  file: "article-penicillin-second-discovery.html",
+  featured: false,
+  keywords: ["penicillin", "Alexander Fleming", "Howard Florey", "Ernst Chain", "Norman Heatley", "Albert Alexander", "Cecil Paine", "Peoria", "Moldy Mary", "Dorothy Hodgkin", "antibiotics", "history of medicine", "Nobel Prize"],
+  related: ["h-pylori", "clair-patterson-lead", "medicine-expiry"]
+},
+         {
   id: "medicine-expiry",
   title: "What Really Happens to a Medicine After Its Expiry Date?",
   description: "The US military found many stockpiled drugs still potent years past expiry. So what does the date on a strip of tablets really mean, which medicines genuinely degrade, and what should you do with old ones?",
