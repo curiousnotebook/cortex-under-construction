@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "grapefruit-problem",
+  title: "The Grapefruit Problem: How a Breakfast Fruit Changes Your Medicine",
+  description: "In 1989, grapefruit juice used to disguise alcohol in a drug study turned out to make the drug far stronger. How one fruit can change dozens of medicines, and which citrus to watch.",
+  category: "medicine",
+  readingTime: 7,
+  date: "2026-11-19",
+  file: "article-grapefruit-problem.html",
+  featured: false,
+  keywords: ["grapefruit", "drug interactions", "CYP3A4", "furanocoumarins", "pomelo", "chakotra", "statins", "simvastatin", "felodipine", "David Bailey"],
+  related: ["medicine-timing", "dose-for-men", "clair-patterson-lead"]
+},
+      {
   id: "household-superstitions",
   title: "Don’t Sweep After Sunset: The Logic Behind Household Superstitions",
   description: "No sweeping after dark, no cutting nails at night, no hair washing on certain days, and beware the black cat. Where these rules came from, which have a practical core, and why we keep them.",
