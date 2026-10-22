@@ -64,6 +64,18 @@ const SITE_CATEGORIES = [
 
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
+         {
+  id: "trauma-bonds",
+  title: "Why We Get Attached to People Who Hurt Us",
+  description: "Why do people stay bonded to a partner, parent or boss who hurts them? What research on infant attachment, unpredictable kindness, craving and investment shows, and why leaving is a process, not a moment.",
+  category: "psychology",
+  readingTime: 13,
+  date: "2026-12-07",
+  file: "article-attached-to-people-who-hurt-us.html",
+  featured: false,
+  keywords: ["trauma bonding", "traumatic bonding", "abusive relationships", "attachment", "intermittent reinforcement", "Stockholm syndrome", "investment model", "domestic violence", "Dutton and Painter", "Bowlby", "leaving", "NFHS-5"],
+  related: ["born-unfinished", "praise-punishment-illusion", "intelligent-false-beliefs"]
+},
       {
   id: "happy-accidents",
   title: "Happy Accidents? The Real Stories Behind Everyday Inventions",
