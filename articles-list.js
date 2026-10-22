@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "happy-accidents",
+  title: "Happy Accidents? The Real Stories Behind Everyday Inventions",
+  description: "Sticky notes, super glue, Teflon and the microwave began with something going wrong. The real stories, and why famous tales about potato chips, chocolate chip cookies and penicillin are exaggerated.",
+  category: "discoveries",
+  readingTime: 6,
+  date: "2026-12-05",
+  file: "article-happy-accidents.html",
+  featured: false,
+  keywords: ["accidental inventions", "Post-it Notes", "super glue", "Teflon", "microwave oven", "Slinky", "saccharin", "potato chips", "chocolate chip cookie", "penicillin", "serendipity"],
+  related: ["clair-patterson-lead", "h-pylori", "survivorship-bias"]
+},
+      {
   id: "pill-appearance",
   title: "More Than the Molecule: What a Pill’s Colour, Price and Score Line Really Do",
   description: "How a pill’s colour, price and look shape what people expect and whether they keep taking it, and why some tablets can be split while others, because of their coating, must never be.",
