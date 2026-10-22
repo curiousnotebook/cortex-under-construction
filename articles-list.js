@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "india-one-clock",
+  title: "India’s One Clock: Two Hours of Sunlight, One Time Zone",
+  description: "India spans about two hours of sunlight but runs on one clock. How Indian Standard Time came about, what it costs the Northeast, and why Assam’s tea gardens kept their own “garden time”.",
+  category: "society",
+  readingTime: 7,
+  date: "2026-11-27",
+  file: "article-india-one-clock.html",
+  featured: false,
+  keywords: ["Indian Standard Time", "time zone", "IST", "chaibagan time", "bagan time", "Assam", "Northeast India", "sunset", "sleep", "energy"],
+  related: ["perfect-routine", "religion-and-geography", "medicine-timing"]
+},
+      {
   id: "burden-of-proof",
   title: "The Burden of Proof: Who Has to Prove What?",
   description: "“Prove it isn’t true” sounds like a fair challenge. It usually isn’t. How courts, science and safety rules decide who must prove what, and why that choice matters so much.",
