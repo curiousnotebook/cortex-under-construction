@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
          {
+  id: "economics-of-free",
+  title: "The Economics of Free Things: Is Anything Really Free?",
+  description: "Free apps, free trials, free UPI payments and free data. Who really pays for free things, why zero is a special price, and when giving things away free works better than charging a little.",
+  category: "society",
+  readingTime: 11,
+  date: "2026-12-11",
+  file: "article-economics-of-free.html",
+  featured: false,
+  keywords: ["free lunch", "zero price effect", "attention economy", "advertising", "free trials", "subscriptions", "dark patterns", "UPI", "MDR", "Jio", "freebies", "bed nets", "behavioural economics"],
+  related: ["pill-appearance", "goodhart", "india-one-clock"]
+},
+         {
   id: "simpsons-paradox",
   title: "Simpson’s Paradox: When Every Group Improves but the Total Gets Worse",
   description: "Every group can improve while the total gets worse. Real cases from Berkeley admissions, kidney-stone surgery, a smoking survey, Covid-19 death rates and hospital league tables, and how to tell which number to trust.",
