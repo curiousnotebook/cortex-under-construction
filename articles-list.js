@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
    {
+  id: "breakfast-most-important-meal",
+  title: "“Breakfast Is the Most Important Meal of the Day.” Who Said So?",
+  description: "We hear it from parents, teachers and cereal boxes. The line began in a magazine edited by a cereal pioneer and spread through advertising. What happens when scientists actually test it?",
+  category: "myths",
+  readingTime: 10,
+  date: "2026-12-27",
+  file: "article-breakfast-most-important-meal.html",
+  featured: false,
+  keywords: ["breakfast", "most important meal", "Kellogg", "cereal", "Edward Bernays", "skipping breakfast", "weight loss", "intermittent fasting", "nutrition myths", "school breakfast", "Tamil Nadu breakfast scheme", "PM POSHAN", "confounding", "randomised controlled trial"],
+  related: ["simpsons-paradox", "medicine-expiry", "question-belief-respectfully"]
+},
+   {
   id: "busyness-vs-productivity",
   title: "How to Stop Confusing Busyness With Productivity",
   description: "A day packed with messages, meetings and small tasks can feel like hard work and still leave nothing important done. Why our minds mistake motion for progress, and how to tell the two apart.",
