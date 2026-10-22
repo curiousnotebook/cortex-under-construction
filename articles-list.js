@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "shower-ideas",
+  title: "Why Ideas Come in the Shower: The Science of Stepping Away",
+  description: "Why answers often arrive after we stop trying. What research on incubation, mind wandering, walking and sleep shows about stepping away from a problem, and what has not held up.",
+  category: "growth",
+  readingTime: 7,
+  date: "2026-11-29",
+  file: "article-shower-ideas.html",
+  featured: false,
+  keywords: ["incubation", "creativity", "insight", "shower thoughts", "mind wandering", "fixation", "Graham Wallas", "Poincaré", "sleep and insight", "walking", "problem solving"],
+  related: ["learning", "motivation-unreliable", "replication-crisis"]
+},
+      {
   id: "india-one-clock",
   title: "India’s One Clock: Two Hours of Sunlight, One Time Zone",
   description: "India spans about two hours of sunlight but runs on one clock. How Indian Standard Time came about, what it costs the Northeast, and why Assam’s tea gardens kept their own “garden time”.",
