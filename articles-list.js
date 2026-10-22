@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "clair-patterson-lead",
+  title: "The Man Who Dated the Earth and Found the Poison in Our Air",
+  description: "Clair Patterson set out to measure the age of the Earth. The lead contaminating his lab led him to a poison the whole world was breathing, and a long fight to end leaded petrol.",
+  category: "discoveries",
+  readingTime: 7,
+  date: "2026-11-15",
+  file: "article-clair-patterson-lead.html",
+  featured: false,
+  keywords: ["Clair Patterson", "age of the Earth", "leaded petrol", "tetraethyl lead", "lead poisoning", "clean room", "ice cores", "Robert Kehoe", "Needleman", "environmental health"],
+  related: ["h-pylori", "dose-for-men", "replication-crisis"]
+},
+      {
   id: "dose-for-men",
   title: "Why the Dose on the Box Was Set for Men",
   description: "For decades, medicines were tested mainly on men and male animals. A sleeping pill’s halved dose for women shows what that cost, and how research is slowly changing.",
