@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "dose-for-men",
+  title: "Why the Dose on the Box Was Set for Men",
+  description: "For decades, medicines were tested mainly on men and male animals. A sleeping pill’s halved dose for women shows what that cost, and how research is slowly changing.",
+  category: "medicine",
+  readingTime: 7,
+  date: "2026-11-13",
+  file: "article-dose-for-men.html",
+  featured: false,
+  keywords: ["sex differences", "women in clinical trials", "zolpidem", "Ambien", "drug dosing", "side effects", "pharmacokinetics", "aspirin", "gender bias", "adverse drug reactions"],
+  related: ["medicine-timing", "placebo", "replication-crisis"]
+},
+      {
   id: "perfect-routine",
   title: "The Myth of the Perfect Routine: Why Flexible Beats Flawless",
   description: "The ideal daily routine is a popular fantasy. Research on body clocks, broken streaks, perfectionism and flexible habits suggests a better approach.",
