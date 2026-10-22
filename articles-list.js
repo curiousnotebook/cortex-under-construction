@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
    {
+  id: "antibiotic-course",
+  title: "“Finish the Whole Course”: Is the Antibiotic Rule Actually True?",
+  description: "Stop antibiotics early and the germs come back stronger, or so we were told. A 2017 BMJ analysis questioned the rule. What the trials show, where the full course still matters, and India’s bigger problem with antibiotics sold without prescription.",
+  category: "medicine",
+  readingTime: 11,
+  date: "2026-12-29",
+  file: "article-finish-antibiotic-course.html",
+  featured: false,
+  keywords: ["antibiotics", "finish the course", "complete the course", "antibiotic resistance", "AMR", "superbugs", "BMJ 2017", "short-course antibiotics", "Alexander Fleming", "tuberculosis", "rheumatic fever", "over-the-counter antibiotics", "Schedule H1", "Operation AMRITH"],
+  related: ["penicillin-second-discovery", "medicine-expiry", "h-pylori"]
+},
+   {
   id: "breakfast-most-important-meal",
   title: "“Breakfast Is the Most Important Meal of the Day.” Who Said So?",
   description: "We hear it from parents, teachers and cereal boxes. The line began in a magazine edited by a cereal pioneer and spread through advertising. What happens when scientists actually test it?",
