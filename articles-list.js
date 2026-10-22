@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
    {
+  id: "busyness-vs-productivity",
+  title: "How to Stop Confusing Busyness With Productivity",
+  description: "A day packed with messages, meetings and small tasks can feel like hard work and still leave nothing important done. Why our minds mistake motion for progress, and how to tell the two apart.",
+  category: "growth",
+  readingTime: 11,
+  date: "2026-12-25",
+  file: "article-busyness-vs-productivity.html",
+  featured: false,
+  keywords: ["productivity", "busyness", "time management", "focus", "multitasking", "task switching", "attention", "urgency", "Eisenhower matrix", "working hours", "70-hour work week", "burnout", "deep work", "study habits"],
+  related: ["abandon-new-habits", "economics-of-free", "simpsons-paradox"]
+},
+   {
   id: "spices-reshaped-world",
   title: "How Spices Helped Reshape the World",
   description: "Pepper in a pharaoh’s nose, Rome’s pepper bill, the voyages of Columbus and da Gama, the first tradable shares, a massacre in the Banda Islands and the chilli’s arrival in India.",
