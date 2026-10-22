@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
          {
+  id: "simpsons-paradox",
+  title: "Simpson’s Paradox: When Every Group Improves but the Total Gets Worse",
+  description: "Every group can improve while the total gets worse. Real cases from Berkeley admissions, kidney-stone surgery, a smoking survey, Covid-19 death rates and hospital league tables, and how to tell which number to trust.",
+  category: "philosophy",
+  readingTime: 11,
+  date: "2026-12-09",
+  file: "article-simpsons-paradox.html",
+  featured: false,
+  keywords: ["Simpson's paradox", "Berkeley admissions", "kidney stones", "confounding", "weighted average", "hospital league tables", "case mix", "Whickham", "Covid-19 case fatality", "Judea Pearl", "statistics", "critical thinking"],
+  related: ["base-rates", "survivorship-bias", "praise-punishment-illusion"]
+},
+         {
   id: "trauma-bonds",
   title: "Why We Get Attached to People Who Hurt Us",
   description: "Why do people stay bonded to a partner, parent or boss who hurts them? What research on infant attachment, unpredictable kindness, craving and investment shows, and why leaving is a process, not a moment.",
