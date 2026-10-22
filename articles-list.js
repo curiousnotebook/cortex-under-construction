@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "praise-punishment-illusion",
+  title: "Why Praise Seems to Fail and Punishment Seems to Work",
+  description: "After praise, performance often drops; after a scolding, it often improves. The cause is usually not the praise or the scolding, but a statistical pattern called regression to the mean.",
+  category: "psychology",
+  readingTime: 6,
+  date: "2026-11-23",
+  file: "article-praise-punishment-illusion.html",
+  featured: false,
+  keywords: ["regression to the mean", "praise", "punishment", "Kahneman", "flight instructors", "parenting", "teaching", "management", "evil eye", "spanking", "statistics"],
+  related: ["placebo", "base-rates", "survivorship-bias"]
+},
+      {
   id: "doorway-effect",
   title: "The Doorway Effect: Why You Forget What You Came In For",
   description: "You walk into a room and forget why you came. Research suggests doorways can act like chapter breaks for memory, though the effect is smaller and more fragile than the headlines claim.",
