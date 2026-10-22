@@ -44,7 +44,7 @@
       <header class="article-head container narrow">
         <a class="tag cat-philosophy" href="articles.html?topic=philosophy">Philosophy &amp; Critical Thinking</a>
         <h1>Occam’s Razor: Is the Simplest Explanation Always Best?</h1>
-        <p class="dek">Prefer the simpler explanation, all else being equal. It is one of the most useful rules in thinking. It is also one of the most misunderstood.</p>
+        <p class="dek">“The simplest explanation is usually the right one” is one of the most quoted rules of thinking. It is also widely misunderstood. Used well, it is a sharp tool. Used carelessly, it cuts away the truth.</p>
         <p class="article-meta"><span>7 min read</span><span aria-hidden="true">·</span><time datetime="2026-11-07">7 November 2026</time></p>
       </header>
 
@@ -53,63 +53,83 @@
       </div>
 
       <div class="prose container narrow">
-        <p>When a noise comes from the attic, you might think of a ghost, a raccoon, or a loose pipe. Most people reach for the raccoon, and they are usually right. That habit has a name: Occam’s razor, the principle that when two explanations fit the facts equally well, we should prefer the one that assumes less. The phrase suggests a sharp tool that cuts away needless complications. But the principle is more subtle than its popular version, and the simplest explanation is not always the right one.</p>
+        <p>In the 1840s, astronomers had a problem. The planet Uranus was not moving quite as Newton’s laws predicted. One option was to conclude that Newton’s laws were wrong. Another was to add something new: an unseen planet, further out, tugging Uranus off course. The French mathematician Urbain Le Verrier calculated where such a planet would have to be. In 1846, astronomers in Berlin pointed a telescope at that spot and found Neptune.</p>
+        <p>A few years later, Le Verrier noticed that Mercury had a similar problem. The point where its orbit came closest to the Sun was shifting slightly faster than Newton’s laws allowed. He tried the same trick and proposed another unseen planet, closer to the Sun, which became known as Vulcan. Astronomers searched for it for decades. Some even reported seeing it. It was never there. In 1915, Albert Einstein’s general theory of relativity explained Mercury’s orbit exactly, with no extra planet needed.</p>
+        <p>Both times, the same move was made: add one new thing to keep a trusted theory. Once it was a triumph, once a dead end. Which explanation was the “simple” one? That question sits at the heart of Occam’s razor.</p>
 
-        <h2>Where the name comes from</h2>
-        <p>The razor is named after William of Ockham, an English philosopher and friar of the fourteenth century. The famous Latin phrase usually attached to him, <em>entia non sunt multiplicanda praeter necessitatem</em> (entities must not be multiplied beyond necessity), does not appear in his surviving writings. It seems to be a later formulation, and the name “Occam’s razor” itself appeared centuries after his death. Ockham did use the idea, and he applied it aggressively against the proliferation of metaphysical entities, such as the universals that other philosophers thought existed in addition to particular things. But the attribution is a tidy story, and historians of philosophy have been clear that it is partly a legend.</p>
-        <p>What matters is the idea, which was widely shared in medieval logic. The principle is a preference, not a proof. It says that, given two explanations of equal power, you should not add unnecessary parts to one of them.</p>
+        <h2>The man, and the words he didn’t say</h2>
+        <p>The razor is named after William of Ockham, an English Franciscan friar and philosopher who lived from about 1287 to 1347. The famous wording, “entities must not be multiplied beyond necessity”, does not actually appear in his surviving writings. The Latin version most often quoted was written down in 1639 by an Irish theologian, John Punch, who described it as a common saying among scholars. Ockham did use the idea often, insisting that something should only be assumed to exist if reason, experience or scripture gave grounds for it.</p>
+        <p>The principle is much older than Ockham. Aristotle preferred proofs that needed fewer assumptions. Isaac Newton made it the first of his rules of reasoning: admit no more causes of natural things than are both true and sufficient to explain them. Notice the word <em>sufficient</em>. The razor was never “choose the simplest story”. It was “don’t add more than you need to explain what you see”.</p>
 
-        <h2>Why simpler theories can predict better</h2>
-        <p>The most interesting justification for the razor comes from statistics, not philosophy. Imagine fitting a curve to a set of points. A straight line may miss a few points. A wiggly curve with many parameters can pass through every point exactly, but it may behave badly on new data, because it has learned the noise as well as the signal. A moderately flexible curve often predicts best.</p>
-        <p>In 1994, the philosophers Malcolm Forster and Elliott Sober argued that the statistician Hirotugu Akaike had given a precise way to see this. Akaike’s information criterion, published in the 1970s, estimates how well a model is likely to predict new data, and it penalises models for the number of parameters they use. Forster and Sober used it to argue that simplicity has a real epistemic role: it is not just an aesthetic taste, but something that can be connected to expected predictive accuracy. The approach has not gone unchallenged. Other statisticians have argued that AIC can be inconsistent in some settings, and that different criteria give different advice. But the basic point stands: complexity has a cost.</p>
+        <h2>What “simple” actually means</h2>
+        <p>Philosophers distinguish two kinds of simplicity, and they often pull in opposite directions. One is about how few <em>things</em> a theory says exist, sometimes called <strong>parsimony</strong>. The other is about how few and how neat its <em>rules</em> are, sometimes called <strong>elegance</strong>.</p>
+        <p>Neptune shows the tension. Adding a planet made the list of things in the solar system longer. But it kept the laws of motion exactly as they were. The alternative, rewriting Newton’s laws to fit Uranus, would have meant fewer planets and messier laws. Astronomers chose the extra object, and they were right. With Mercury, adding Vulcan kept the laws simple at the cost of an invisible planet that kept refusing to appear. In the end, a new set of laws that explained everything with no special additions won out. Simplicity is not one measurement. It is a judgement about where complexity is doing real work.</p>
 
-        <p class="key-idea">Extra parameters always improve the fit to the data you already have. The question is whether they improve the prediction of data you have not yet seen.</p>
+        <h2>A myth about simplicity in the history books</h2>
+        <p>A popular story says that Copernicus replaced an absurdly complicated Earth-centred universe, full of circles on circles, with a far simpler Sun-centred one. The reality is less tidy. The historian Thomas Kuhn concluded that Copernicus’s system, as he actually worked it out, was “neither more accurate nor significantly simpler” than the Ptolemaic system it challenged. Copernicus still used perfect circles and needed many of them. It was Johannes Kepler, decades later, whose elliptical orbits made the Sun-centred picture both more accurate and genuinely simpler. A simple-sounding idea is not always simpler in practice, and the story of its success can itself be simplified after the fact.</p>
 
-        <h2>The Bayesian razor</h2>
-        <p>A second justification comes from Bayesian probability. In 1992, William Jefferys and James Berger showed that Bayesian inference tends to favour simpler hypotheses without any explicit rule saying so. The reason is an effect now often called the “automatic Occam’s razor.” A complex model spreads its probability across many possible parameter values. When the data happen to fall where the simple model predicted them, the simple model gets more of the credit, because the complex model had to spread its bets thinly. The complex model is not penalised for being complex in a crude sense; it is penalised for predicting less sharply.</p>
-        <p>Psychologists have tested whether people reason this way. A 2018 study in <em>Cognitive Science</em> reported that people’s intuitive judgments about probability and explanation followed the pattern predicted by Bayesian reasoning, penalising hypotheses for flexibility as well as for the number of free parameters. The authors described this as a razor of ordinary people as well as of statisticians. It suggests that the intuition behind the razor is not just a cultural habit but has a rational basis, though whether it always matches what people do in harder cases is a separate question.</p>
+        <p class="key-idea">Occam’s razor does not say the simplest story is true. It says: don’t add assumptions unless the evidence makes you.</p>
 
-        <h2>When the simplest answer misleads</h2>
-        <p>None of this means the simplest explanation always wins. The razor can be misused in at least three ways.</p>
-        <p>First, simplicity is not the same as truth. A theory can be simple and wrong, or complex and right. The natural world has no obligation to be elegant. Many important scientific advances added complexity, and some of them were resisted for exactly that reason. Simplicity is a tie-breaker between explanations that fit the evidence equally well, not a substitute for evidence.</p>
-        <p>Second, what counts as simple depends on how you describe the problem. A theory that looks short in one language can be long in another, and “fewer entities” can mean very different things depending on which entities you count. The razor needs a clear measure of complexity, and such measures are often contested.</p>
-        <p>Third, and most important in everyday life, the razor can narrow your attention too early. In medicine, the principle is sometimes taught as diagnostic parsimony: look for one diagnosis that explains all the symptoms. A counterweight is known as Hickam’s dictum, traditionally stated as the claim that a patient can have as many diseases as they please. Hickam was a physician who taught in the mid-twentieth century, and the saying is often attributed to him, though the exact origin is uncertain. The point is that older or unwell patients often have several ordinary conditions at once, and the single tidy diagnosis may miss the others. The razor is a sensible default; it should not stop you from looking for the second cause.</p>
+        <h2>Why simplicity earns its place: the statistician’s answer</h2>
+        <p>Is there any deeper reason to prefer simpler explanations, beyond taste? Statisticians have found one.</p>
+        <p>Imagine plotting ten points on a graph and trying to draw a line through them. A straight line may miss a few points slightly. A wiggly curve with enough bends can pass through every single point perfectly. The wiggly curve looks better, but it has learned the noise along with the pattern. Give it ten new points and it will usually predict them worse than the straight line. This is called <strong>overfitting</strong>, and it is a central problem in statistics, economics and machine learning. Flexible models can fit almost anything, which is exactly why fitting the data well proves so little.</p>
+        <p>In 1974, the Japanese statistician Hirotugu Akaike turned this into a practical tool. His <strong>Akaike information criterion</strong> rewards a model for fitting the data and penalises it for every extra adjustable part. It is now used routinely to choose between competing models.</p>
+        <p>Bayesian statistics offers a related insight. In 1992, William Jefferys and James Berger showed that a simple theory makes sharp, risky predictions, while a flexible theory spreads its bets across many possible outcomes. When the data land where the sharp theory said they would, the evidence favours it strongly. Their example was Mercury itself. Einstein’s theory predicted Mercury’s extra drift with no adjustable parts, and the observations matched. A version of Newton’s theory with an extra “fudge factor” could also fit the observations, but only because it could have fitted almost anything. On their calculations, the evidence favoured Einstein by a factor of roughly 28. In this sense, Occam’s razor is not just a preference. It falls out of reasoning carefully about probability (see <a href="article-base-rates.html">Why a Positive Test Might Still Mean You’re Probably Fine</a>).</p>
+        <p>There is a link here to the replication crisis, too. Studies analysed with too much flexibility can find patterns in noise, just like an overfitted curve (see <a href="article-replication-crisis.html">The Replication Crisis</a>).</p>
 
-        <aside class="evidence" aria-labelledby="evidence-occam">
-          <h2 class="evidence-heading" id="evidence-occam">What we know, and what we don’t</h2>
+        <h2>When the simple answer is wrong: lessons from medicine</h2>
+        <p>Medical students are taught the razor as a guide to diagnosis: try to find one condition that explains all of a patient’s symptoms, rather than several. It is good advice, because one disease is usually more likely than two unrelated ones appearing at the same time.</p>
+        <p>But medicine also has a famous counter-rule, known as <strong>Hickam’s dictum</strong> and attributed to the American physician John Hickam: “A patient can have as many diseases as he damn well pleases.” In a 2004 case in the <em>New England Journal of Medicine</em>, a 60-year-old woman with a weakened immune system came to hospital short of breath. She turned out to have two serious conditions at once, a lung infection and a blood clot in her lungs. Searching for a single explanation could have meant missing one of them. The dictum matters most for older people, who often live with several long-term conditions.</p>
+        <p>A 2024 analysis of 220 complex case reports suggested the two rules are less opposed than they seem. Patients often had more than one diagnosis, but the extras followed predictable patterns: a long-standing condition, a harmless incidental finding, or a second disease caused by the first. Truly unrelated diseases arriving together were the rarest kind. The authors argued that a “unifying” diagnosis does not have to be a single disease. It can be a causal chain that links the problems together.</p>
+        <p>Medicine has also seen the reverse mistake: a simple, satisfying explanation that was wrong. For decades, stomach ulcers were blamed on stress and acid. The less intuitive answer, a bacterium, turned out to be the main cause (see <a href="article-stomach-bacterium.html">The Bacterium in the Stomach</a>).</p>
+
+        <h2>Using the razor well</h2>
+        <ul>
+          <li><strong>Count assumptions, not words.</strong> A short explanation can hide many assumptions. Conspiracy theories often sound simple (“they did it”) but require countless people to keep a secret perfectly, which is a lot of extra machinery.</li>
+          <li><strong>Simple must still be sufficient.</strong> An explanation that leaves out part of the evidence is not simpler. It is incomplete.</li>
+          <li><strong>Treat it as a tie-breaker.</strong> When two explanations fit the evidence equally well, prefer the one that assumes less, then look for evidence that can separate them.</li>
+          <li><strong>Be suspicious of explanations that can fit anything.</strong> A theory that would have explained the opposite result just as easily is telling you very little.</li>
+          <li><strong>Remember it is a guide, not a law.</strong> Nature is under no obligation to be simple. Sometimes the truth really is complicated.</li>
+        </ul>
+        <p>The often-quoted line attributed to Einstein, “everything should be made as simple as possible, but not simpler”, is probably a later paraphrase rather than his exact words. It captures the idea perfectly anyway. The razor is for trimming away what isn’t needed, not for cutting into the evidence itself.</p>
+
+        <aside class="evidence" aria-labelledby="evidence-occams-razor">
+          <h2 class="evidence-heading" id="evidence-occams-razor">What we know, and what we don’t</h2>
           <div class="evidence-col evidence-col--solid">
             <h3>Well established</h3>
             <ul>
-              <li>Models with more free parameters fit existing data better but can predict new data worse, which gives a statistical basis for preferring simpler models.</li>
-              <li>Bayesian reasoning tends to favour simpler hypotheses when they fit the data equally well, through the automatic penalty for flexibility.</li>
-              <li>The exact wording “entities must not be multiplied beyond necessity” is not found in Ockham’s surviving works.</li>
+              <li>The famous wording of Occam’s razor does not appear in Ockham’s writings, though he used the idea.</li>
+              <li>Models with many adjustable parts can fit existing data well yet predict new data poorly.</li>
+              <li>Statistical tools such as the Akaike information criterion and Bayesian model comparison formally penalise unnecessary complexity.</li>
+              <li>In medicine, patients can have several diagnoses at once, particularly older patients with long-term conditions.</li>
             </ul>
           </div>
           <div class="evidence-col evidence-col--open">
             <h3>Still uncertain</h3>
             <ul>
-              <li>How best to measure complexity, and whether different criteria, such as AIC and BIC, give consistent advice in all settings.</li>
-              <li>Whether people’s everyday use of simplicity matches the Bayesian ideal in complex or unfamiliar problems.</li>
-              <li>How often the simplest diagnosis is the right one in real clinical practice, which depends on the population and setting.</li>
+              <li>How to measure simplicity in a way everyone agrees on; it can depend on how a theory is written down.</li>
+              <li>How to weigh fewer “things” against fewer or neater “rules” when they conflict.</li>
+              <li>Whether nature itself is simple, or whether simplicity is mainly a useful habit of human reasoning.</li>
+              <li>Which model-selection rule is best; different methods penalise complexity differently and can disagree.</li>
             </ul>
           </div>
         </aside>
 
-        <h2>A better way to use the razor</h2>
-        <p>The most useful version of Occam’s razor is a question rather than a verdict: what is the least I need to assume to explain what I see? Then the next question matters just as much: what would I expect to see if the simple story were false? If a simpler explanation survives tests that a complicated one must pass, it earns its place. If it fails to account for something important, the extra complexity is not a sin. It is the cost of accuracy.</p>
-        <p>Albert Einstein is often quoted as saying that scientific models should be as simple as possible, but no simpler. The line is usually reported in that form, and it captures the spirit of the principle better than the razor does. Simplicity is a target to aim for, subject to the evidence. It is not a reason to stop looking.</p>
-        <p>The lesson connects to other ideas on this site. A striking result still has to be weighed against what was likely before the evidence arrived, as explored in <a href="article-base-rates.html">Why a Positive Test Might Still Mean You’re Probably Fine</a>. And the habit of accepting a tidy story can be undone by the failures we never see, as in <a href="article-survivorship-bias.html">Survivorship Bias: The Success Stories You Never Hear About</a>. Good thinking uses simplicity as a starting point, and then lets the evidence decide how much complexity is needed.</p>
-
-        <section class="references" aria-labelledby="refs-occam">
-          <h2 id="refs-occam">References</h2>
+        <section class="references" aria-labelledby="refs-occams-razor">
+          <h2 id="refs-occams-razor">References</h2>
           <ol>
-            <li>Jefferys WH, Berger JO. Ockham’s razor and Bayesian analysis. <em>American Scientist</em>. 1992;80:64–72.</li>
-            <li>Forster M, Sober E. How to tell when simpler, more unified, or less ad hoc theories will provide more accurate predictions. <em>British Journal for the Philosophy of Science</em>. 1994;45(1):1–35.</li>
-            <li>Akaike H. Information theory and an extension of the maximum likelihood principle. In: Petrov BN, Csáki F, eds. <em>Second International Symposium on Information Theory</em>. Budapest: Akadémiai Kiadó; 1973.</li>
-            <li>Dowe DL, Gardner S, Oppy G. Bayes not bust! Why simplicity is no problem for Bayesians. <em>British Journal for the Philosophy of Science</em>. 2007;58(4):709–754.</li>
-            <li>Blanchard P, et al. Bayesian Occam’s razor is a razor of the people. <em>Cognitive Science</em>. 2018;42:1345–1359. <em>(Please verify author list before publication.)</em></li>
-            <li>Sober E. <em>Ockham’s Razors: A User’s Manual</em>. Cambridge: Cambridge University Press; 2015.</li>
-            <li>Fields WS. Hickam’s dictum versus Occam’s razor: a case for Occam. Seminars in Roentgenology. Attributed editorial discussion, 1998. (Verify before citing.)</li>
+            <li>Galle JG. Account of the discovery of the planet of Le Verrier at Berlin. <em>Monthly Notices of the Royal Astronomical Society</em>. 1846;7(9):153.</li>
+            <li>Baum R, Sheehan W. <em>In Search of Planet Vulcan: The Ghost in Newton’s Clockwork Universe</em>. New York: Plenum; 1997.</li>
+            <li>Pelletier J. William of Ockham. <em>Stanford Encyclopedia of Philosophy</em>. Revised 2024. <a href="https://plato.stanford.edu/entries/ockham/">SEP website</a></li>
+            <li>Baker A. Simplicity. <em>Stanford Encyclopedia of Philosophy</em>. Revised 2022. <a href="https://plato.stanford.edu/entries/simplicity/">SEP website</a></li>
+            <li>Rosenkrantz RD. The Copernican revelation. In: <em>Inference, Method and Decision</em>. Synthese Library, vol. 115. Dordrecht: Springer; 1977:135–161. <a href="https://doi.org/10.1007/978-94-010-1237-9_7">doi:10.1007/978-94-010-1237-9_7</a></li>
+            <li>Gingerich O. Copernicus and the aesthetic impulse. <em>APS News</em>. July 2000. <a href="https://www.aps.org/apsnews/2000/07/the-back-page">APS website</a></li>
+            <li>Akaike H. A new look at the statistical model identification. <em>IEEE Transactions on Automatic Control</em>. 1974;19(6):716–723. <a href="https://doi.org/10.1109/TAC.1974.1100705">doi:10.1109/TAC.1974.1100705</a></li>
+            <li>Jefferys WH, Berger JO. Ockham’s razor and Bayesian analysis. <em>American Scientist</em>. 1992;80(1):64–72.</li>
+            <li>Hilliard AA, et al. Clinical problem-solving. Occam’s razor versus Saint’s triad. <em>New England Journal of Medicine</em>. 2004;350(6):599–603. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Occam%27s+razor+versus+Saint%27s+triad">PubMed search</a></li>
+            <li>Aberegg SK, Poole BR, Locke BW. Hickam’s dictum: an analysis of multiple diagnoses. <em>Journal of General Internal Medicine</em>. 2024. <a href="https://doi.org/10.1007/s11606-024-09120-y">doi:10.1007/s11606-024-09120-y</a></li>
+            <li>Mandell BF. The causes of vascular insufficiency and Hickam vs Ockham. <em>Cleveland Clinic Journal of Medicine</em>. 2024;91(12):713–714. <a href="https://doi.org/10.3949/ccjm.91b.12024">doi:10.3949/ccjm.91b.12024</a></li>
+            <li>Quote Investigator. Everything should be made as simple as possible, but not simpler. 2011. <a href="https://quoteinvestigator.com/2011/05/13/einstein-simple/">Quote Investigator website</a></li>
           </ol>
         </section>
       </div>
