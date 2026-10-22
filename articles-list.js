@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
          {
+  id: "ship-of-theseus",
+  title: "The Ship of Theseus: What Makes You the Same Person Over Time?",
+  description: "If every plank of a ship is replaced, is it the same ship? And if your cells, memories and beliefs change, are you the same person? What philosophy, biology, an old Buddhist dialogue and modern psychology say.",
+  category: "philosophy",
+  readingTime: 11,
+  date: "2026-12-21",
+  file: "article-ship-of-theseus.html",
+  featured: false,
+  keywords: ["Ship of Theseus", "personal identity", "Plutarch", "Hobbes", "Locke", "Reid", "Parfit", "teletransporter", "Milindapanha", "Nagasena", "chariot", "cell turnover", "end of history illusion", "moral self", "future self"],
+  related: ["memory", "occams-razor", "intelligent-false-beliefs"]
+},
+         {
   id: "penicillin-second-discovery",
   title: "Penicillin’s Forgotten Second Discovery",
   description: "Fleming found penicillin in 1928, then it sat on a shelf for a decade. How an Oxford team, a bedpan factory, eight mice and a dying policeman discovered it a second time, and why the story we tell leaves them out.",
