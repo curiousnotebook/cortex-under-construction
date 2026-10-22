@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "pill-appearance",
+  title: "More Than the Molecule: What a Pill’s Colour, Price and Score Line Really Do",
+  description: "How a pill’s colour, price and look shape what people expect and whether they keep taking it, and why some tablets can be split while others, because of their coating, must never be.",
+  category: "medicine",
+  readingTime: 7,
+  date: "2026-12-03",
+  file: "article-pill-appearance.html",
+  featured: false,
+  keywords: ["pill colour", "placebo", "branding", "price", "generic medicines", "adherence", "tablet splitting", "score line", "enteric coating", "modified release", "crushing tablets"],
+  related: ["placebo", "grapefruit-problem", "dose-for-men"]
+},
+      {
   id: "knuckle-cracking",
   title: "Does Cracking Your Knuckles Cause Arthritis? The Doctor Who Tested It on One Hand",
   description: "A doctor cracked the knuckles of only one hand for decades to test the old warning, and won an Ig Nobel Prize. What his experiment and larger studies show, and what the crack really is.",
