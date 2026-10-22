@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "doorway-effect",
+  title: "The Doorway Effect: Why You Forget What You Came In For",
+  description: "You walk into a room and forget why you came. Research suggests doorways can act like chapter breaks for memory, though the effect is smaller and more fragile than the headlines claim.",
+  category: "psychology",
+  readingTime: 6,
+  date: "2026-11-21",
+  file: "article-doorway-effect.html",
+  featured: false,
+  keywords: ["doorway effect", "forgetting", "memory", "event segmentation", "event boundaries", "prospective memory", "context-dependent memory", "Radvansky", "working memory", "absent-mindedness"],
+  related: ["memory", "learning", "replication-crisis"]
+},
+      {
   id: "inside-the-earth",
   title: "How We Know What’s Inside the Earth Without Ever Going There",
   description: "The deepest hole ever drilled barely scratches the crust. So how do we know Earth has a liquid outer core and a solid inner one? The answer came from earthquakes, and from Inge Lehmann.",
