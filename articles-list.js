@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "inside-the-earth",
+  title: "How We Know What’s Inside the Earth Without Ever Going There",
+  description: "The deepest hole ever drilled barely scratches the crust. So how do we know Earth has a liquid outer core and a solid inner one? The answer came from earthquakes, and from Inge Lehmann.",
+  category: "discoveries",
+  readingTime: 7,
+  date: "2026-11-19",
+  file: "article-inside-the-earth.html",
+  featured: false,
+  keywords: ["Inge Lehmann", "inner core", "Earth's core", "seismology", "earthquakes", "seismic waves", "shadow zone", "Moho", "Kola borehole", "geophysics"],
+  related: ["clair-patterson-lead", "occams-razor", "h-pylori"]
+},
+      {
   id: "grapefruit-problem",
   title: "The Grapefruit Problem: How a Breakfast Fruit Changes Your Medicine",
   description: "In 1989, grapefruit juice used to disguise alcohol in a drug study turned out to make the drug far stronger. How one fruit can change dozens of medicines, and which citrus to watch.",
