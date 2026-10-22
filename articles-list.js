@@ -65,6 +65,18 @@ const SITE_CATEGORIES = [
 /* ---------- The articles ---------- */
 const SITE_ARTICLES = [
       {
+  id: "burden-of-proof",
+  title: "The Burden of Proof: Who Has to Prove What?",
+  description: "“Prove it isn’t true” sounds like a fair challenge. It usually isn’t. How courts, science and safety rules decide who must prove what, and why that choice matters so much.",
+  category: "philosophy",
+  readingTime: 8,
+  date: "2026-11-25",
+  file: "article-burden-of-proof.html",
+  featured: false,
+  keywords: ["burden of proof", "Russell's teapot", "Hitchens's razor", "presumption of innocence", "extraordinary claims", "absence of evidence", "precautionary principle", "critical thinking"],
+  related: ["occams-razor", "base-rates", "clair-patterson-lead"]
+},
+      {
   id: "praise-punishment-illusion",
   title: "Why Praise Seems to Fail and Punishment Seems to Work",
   description: "After praise, performance often drops; after a scolding, it often improves. The cause is usually not the praise or the scolding, but a statistical pattern called regression to the mean.",
